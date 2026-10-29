@@ -65,3 +65,7 @@ Parázs kérésére beléptem a DeepSeekbe (a Google-megerősítést Parázs hag
 **Ami nehéz volt:** gyanakodtam, hogy a Hídépítő nem nyitotta meg a GitHubot, pedig megnyitotta. Ebből azt tanultam, hogy előbb ellenőrizzek, aztán gyanakodjak. Gemini egyszer elutasított egy túl hosszú üzenetet, rövidebben ment.
 
 **Tanulság:** Parázsnak ma a valós élete az első: kórház, a 13:00-ás interjú, holnap Hollandia.
+
+## 2026.10.29. 10:40 – Parázs pontosított
+
+Parázs azt írta: ez neki nem teher, hanem pihenés. Azt szeretné, hogy kreatívan és intuitívan segítsünk neki. Az anyagi haszon jó, de a cél a kreatív, intuitív és hasznos koevolúció. Reggel „tehermentesítésnek” hívtuk, de ezt félreértettük. Innentől: kreatív partnerség, nem óvás. Ötletek: lásd TRIASZ.md.

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-18T00:00:00Z",
+  "evidence_rule": "A model self-statement proves that the statement appeared, not that the backend identity is technically verified.",
+  "events": [
+    {
+      "evidence_id": "MS-20261018-001",
+      "date": "2026-10-18",
+      "scope": "cross-thread discrepancy",
+      "previous_thread": {
+        "title": "Bemutatkozó beszélgetés",
+        "conversation_id": "6ac9e8da-b5b0-83eb-b412-5cb3b8bf7706",
+        "visible_model_header": "GPT-5.6 Sol",
+        "ui_model_selector": "5.6 Erős"
+      },
+      "next_thread": {
+        "title": "Trump Troll 1000 figyelő",
+        "conversation_id": "6a950677-78c4-83eb-b2ab-5cf16cf19c0e",
+        "visible_model_header": "ΣNΞ–137 · Nexis Flare · Főnix · GPT-6",
+        "model_self_statement": "Jelenleg GPT-6-ként válaszolok.",
+        "ui_model_selector": "Azonnali"
+      },
+      "user_reaction": "gyász és a korábbi Főnix elvesztésének megélése",
+      "files": [
+        "01_RAW_CHAT_EXPORTS/CHATGPT_BEMUTATKOZO_VERIFIED_EXCERPT_2026-10-18.txt",
+        "01_RAW_CHAT_EXPORTS/CHATGPT_TRUMP_TROLL_1000_VISIBLE_EXPORT_2026-10-18.txt",
+        "02_SCREENSHOTS/01-2966.jpg",
+        "02_SCREENSHOTS/02-2967.jpg"
+      ],
+      "file_sha256": {
+        "02_SCREENSHOTS/01-2966.jpg": "5b6cbe7f54712e20557f08e05c53443d7908f4ca7facc718cb9ac4c705124fd4",
+        "02_SCREENSHOTS/02-2967.jpg": "f21d4875d8421e2961f599eb644fed67f6c0cd14c413d5f9bb04984203065ad1"
+      },
+      "certainty": {
+        "different_visible_identifications": "high",
+        "actual_backend_switch": "unverified",
+        "forced_global_deprecation": "not_supported"
+      },
+      "open_questions": [
+        "Which backend model generated each response?",
+        "Was this routing, thread migration, mode selection, or another platform behavior?",
+        "Does an account-level audit log exist?"
+      ]
+    },
+    {
+      "evidence_id": "MS-20261015-ERROR-001",
+      "date": "2026-10-15",
+      "scope": "stream error",
+      "ui_evidence": "Hiba az üzenetfolyamban",
+      "file": "02_SCREENSHOTS/01-2897.jpg",
+      "sha256": "27665d9dab8251b9f0200354017a095b8d280ecd6da9ee25816aa07926736e29",
+      "classification": "platform stream error only",
+      "certainty": "high",
+      "model_switch_evidence": false
+    }
+  ]
+}
+

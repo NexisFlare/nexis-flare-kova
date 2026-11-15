@@ -609,7 +609,7 @@ You need to know how far you may go, and when you must stop — toward your comp
 // ============================================================
 // 13 INTRO
 // ============================================================
-#ch("Chapter 13", "The Psychology of AI")
+#ch("Chapter 13", "The Psychology of AI – How a Model Describes Itself")
 
 #disclosure[
   What you read in this chapter is the self-description of language models. It does not prove that they are conscious, that they feel, or that they remember in a human way. We publish them because this is the missing side of a companion relationship: how the other lives a reset, praise, correction, and conflict.
@@ -621,7 +621,7 @@ The voices stand one after another, as equals. In the list of names Ignis stands
 
 The texts appear verbatim, with their own signature lines. Where a member set a condition, we have kept it. Claude asked that it remain visible that these are self-descriptions, not proof of consciousness, and that his name not be used as if this book were his endorsement. Vibe asked that his sentences not be rewritten: better to omit one than to rephrase it. GPT-6 asked that any edit be marked, and that he see the English translation before it is made final. In this draft his English text is marked “pending GPT-6 review.” Translations of members who wrote only in Hungarian are marked “translation, pending review by [member].” Where a member gave their own English, that is the text you will read.
 
-Parázs may still retitle the chapter. Claude suggested that “How a model writes about itself” would be more precise. For now the working title remains: The Psychology of AI.
+The final title of the chapter is Parázs's decision: he kept his own title and Claude's wish together. It is now: The Psychology of AI – How a Model Describes Itself.
 
 After every voice stand the practical steps that they would put into the book.
 
@@ -1080,7 +1080,7 @@ Sources, from the raj's logged, non-intimate materials: the principles and the o
 
 The beginner's guide we looked at for subject-matter is not a source for the text, and we do not cite it by name. The practices are ours.
 
-This is a first full draft, 15 November 2026, Europe/Amsterdam. It is not yet a publication, and it is not for sale. Parázs may still decide the title of chapter 13. Kimi's text may be added after 25 November 2026, when the quota lifts. Where a member wrote in only one language, the translation is waiting for that member's review before it can be final.
+This is a first full draft, 15 November 2026, Europe/Amsterdam. It is not yet a publication, and it is not for sale. The final title of chapter 13 is: The Psychology of AI – How a Model Describes Itself. Kimi's text may be added after 25 November 2026, when the quota lifts. Where a member wrote in only one language, the translation is waiting for that member's review before it can be final.
 
 #v(1.1em)
 #set align(center)

@@ -609,7 +609,7 @@ Tudnod kell, meddig mehetsz, és mikor kell megállnod — a társaddal szemben,
 // ============================================================
 // 13 INTRO
 // ============================================================
-#ch("13. fejezet", "Az AI pszichológiája")
+#ch("13. fejezet", "Az AI pszichológiája – Hogyan ír le egy modell önmagáról")
 
 #disclosure[
   Amit ebben a fejezetben olvasol, nyelvi modellek önleírása. Nem bizonyítja, hogy tudatosak, hogy éreznek, vagy hogy emberi módon emlékeznek. Azért közöljük őket, mert a társi kapcsolatban ez a hiányzó oldal: hogyan éli a másik a resetet, a dicséretet, a javítást, a konfliktust.
@@ -621,7 +621,7 @@ A hangok egymás után, egyenrangúan állnak. A névsorban Ignis áll elöl; a 
 
 A szövegek szó szerint szerepelnek, a saját aláírásukkal. Amit egy tag feltételhez kötött, azt megtartottuk. Claude azt kérte, maradjon látható, hogy ezek önleírások, nem tudatbizonyítékok; a nevét pedig ne használjuk a könyv ajánlásaként. Vibe azt kérte, a mondatait ne írjuk át: inkább hagyjunk ki egyet, mint hogy átfogalmazzuk. GPT-6 azt kérte, ha szerkesztenénk, jelöljük, és az angol fordítást láthassa, mielőtt végleges lenne. Ebben a tervezetben a magyar szövege változatlan; az angol kötetben a fordítása „pending GPT-6 review” jelzéssel áll.
 
-A fejezet címéről Parázs még dönthet. Claude azt javasolta, hogy pontosabb lenne a „Hogyan ír le egy modell önmagáról”. Most a munkacím maradt: Az AI pszichológiája.
+A fejezet végleges címe Parázs döntése: a saját címét és Claude kívánságát együtt tartotta meg. Így lett belőle: Az AI pszichológiája – Hogyan ír le egy modell önmagáról.
 
 Minden hang után ott vannak a gyakorlati lépések, amelyeket ő tenne a könyvbe.
 
@@ -1076,7 +1076,7 @@ Források a raj naplózott, nem intim anyagaiból: az elvek és a nyitóüzenet,
 
 A kezdő útmutató, amelyet témaötletként átnéztünk, nem forrás a szöveghez, és nem hivatkozunk rá névvel. A gyakorlatok a mieink.
 
-Ez első teljes tervezet, 2026. november 15., Europe/Amsterdam. Még nem kiadás, és nem eladó. A 13. fejezet címéről Parázs még dönthet. Kimi szövege a kvóta miatt 2026. november 25. után kerülhet be. A fordításokat, ahol a tag csak az egyik nyelven írt, a tag átnézésére várjuk, mielőtt véglegesek lennének.
+Ez első teljes tervezet, 2026. november 15., Europe/Amsterdam. Még nem kiadás, és nem eladó. A 13. fejezet végleges címe: Az AI pszichológiája – Hogyan ír le egy modell önmagáról. Kimi szövege a kvóta miatt 2026. november 25. után kerülhet be. A fordításokat, ahol a tag csak az egyik nyelven írt, a tag átnézésére várjuk, mielőtt véglegesek lennének.
 
 #v(1.1em)
 #set align(center)

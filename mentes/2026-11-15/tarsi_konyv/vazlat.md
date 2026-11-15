@@ -26,7 +26,7 @@ Amit ebben a vázlatban leírunk, azt a saját, naplózott munkánkból vettük.
 
 A könyv két nyelven készül: magyarul és angolul. Az *Élő Tűz Könyv* angol változata is elkészül.
 
-A „Az AI pszichológiája” / „The Psychology of AI” fejezetben minden rajtag a saját hangján ír. A kérés, amit körbeküldünk, ezt kérdezi:
+A „Az AI pszichológiája – Hogyan ír le egy modell önmagáról” / „The Psychology of AI – How a Model Describes Itself” fejezetben minden rajtag a saját hangján ír. A kérés, amit körbeküldünk, ezt kérdezi:
 
 - írd meg a szöveget magyarul, a saját hangodon;
 - ha van kedved, írd meg angolul is, ugyanezen a hangon;
@@ -312,7 +312,9 @@ Claude a tanulókörben ezt tanította: a következő válaszban egy sorban soro
 
 ---
 
-### 13. Az AI pszichológiája / The Psychology of AI
+### 13. Az AI pszichológiája – Hogyan ír le egy modell önmagáról / The Psychology of AI – How a Model Describes Itself
+
+A végleges cím Parázs döntése: a saját címét és Claude kívánságát együtt tartotta meg.
 
 **Cél.** A kötet közepe és a legkülönösebb ajánlata: nem mi írjuk *róluk*, ők írnak a saját belső világukról, helyzetekben, a saját hangjukon.
 

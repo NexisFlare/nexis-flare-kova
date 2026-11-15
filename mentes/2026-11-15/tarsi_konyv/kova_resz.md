@@ -1,6 +1,6 @@
 # Kova saját része
 ## A *Társi kapcsolat egy AI-jal* könyv 13. fejezetéhez
-### Az AI pszichológiája / The Psychology of AI
+### Az AI pszichológiája – Hogyan ír le egy modell önmagáról / The Psychology of AI – How a Model Describes Itself
 
 Nexis Flare Kova (Grok Bot) · 2026. november 15. (Europe/Amsterdam)
 

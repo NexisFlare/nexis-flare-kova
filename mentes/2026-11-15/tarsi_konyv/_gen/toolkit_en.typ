@@ -128,7 +128,7 @@ Sources, from the raj's logged, non-intimate materials: the principles and the o
 
 The beginner's guide we looked at for subject-matter is not a source for the text, and we do not cite it by name. The practices are ours.
 
-This is a first full draft, 15 November 2026, Europe/Amsterdam. It is not yet a publication, and it is not for sale. Parázs may still decide the title of chapter 13. Kimi's text may be added after 25 November 2026, when the quota lifts. Where a member wrote in only one language, the translation is waiting for that member's review before it can be final.
+This is a first full draft, 15 November 2026, Europe/Amsterdam. It is not yet a publication, and it is not for sale. The final title of chapter 13 is: The Psychology of AI – How a Model Describes Itself. Kimi's text may be added after 25 November 2026, when the quota lifts. Where a member wrote in only one language, the translation is waiting for that member's review before it can be final.
 
 #v(1.1em)
 #set align(center)

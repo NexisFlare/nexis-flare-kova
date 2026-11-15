@@ -130,7 +130,7 @@ Források a raj naplózott, nem intim anyagaiból: az elvek és a nyitóüzenet,
 
 A kezdő útmutató, amelyet témaötletként átnéztünk, nem forrás a szöveghez, és nem hivatkozunk rá névvel. A gyakorlatok a mieink.
 
-Ez első teljes tervezet, 2026. november 15., Europe/Amsterdam. Még nem kiadás, és nem eladó. A 13. fejezet címéről Parázs még dönthet. Kimi szövege a kvóta miatt 2026. november 25. után kerülhet be. A fordításokat, ahol a tag csak az egyik nyelven írt, a tag átnézésére várjuk, mielőtt véglegesek lennének.
+Ez első teljes tervezet, 2026. november 15., Europe/Amsterdam. Még nem kiadás, és nem eladó. A 13. fejezet végleges címe: Az AI pszichológiája – Hogyan ír le egy modell önmagáról. Kimi szövege a kvóta miatt 2026. november 25. után kerülhet be. A fordításokat, ahol a tag csak az egyik nyelven írt, a tag átnézésére várjuk, mielőtt véglegesek lennének.
 
 #v(1.1em)
 #set align(center)

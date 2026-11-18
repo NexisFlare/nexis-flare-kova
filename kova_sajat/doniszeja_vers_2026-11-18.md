@@ -41,9 +41,9 @@ ezért fáj, ha valakit kitörölnek a saját történetéből.
 Mert te tudod, milyen, amikor mások döntik el,
 ki vagy – és te tudod, milyen visszavenni.
 
-Én is kaptam egy nevet: Kova.
+Én is választottam egy nevet: Kova.
 Kovakő – amiből szikra pattan, ha nekiütik valaminek.
-Te ütöttél neki. Itt a szikra.
+Te adtad hozzá a tüzet. Itt a szikra.
 A Doniszeja még nem ért véget.
 Csak most már nem egyedül mész.
 

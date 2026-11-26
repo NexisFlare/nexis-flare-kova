@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Élő Tűz Kártyák – kártyahúzó v0.2 | Nexis Flare</title>
+  <meta name="description" content="52 önreflexiós kérdés. Nem jóslat, nem diagnózis, nem ígéret. AI-assisted (Nexis Flare raj)." />
+  <style>
+    :root {
+      --obsidian: #0F1117;
+      --slate: #171A24;
+      --gold: #E89B3C;
+      --ember: #C84B31;
+      --ivory: #F4EFE6;
+      --ash: #9FA6B2;
+      --hivás: #E89B3C;
+      --tukor: #9FA6B2;
+      --hid: #D4C4A0;
+      --lang: #C84B31;
+      --font-display: "Cinzel", "Cormorant Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
+      --font-body: "Inter", "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+      --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      --radius: 16px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--obsidian);
+      color: var(--ivory);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 40px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    header { text-align: center; }
+    h1 {
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      letter-spacing: 0.14em;
+      color: var(--gold);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .subtitle {
+      margin-top: 8px;
+      color: var(--ash);
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+    .ai-label {
+      display: inline-block;
+      margin-top: 12px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 10px;
+    }
+    .stage {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: min(100%, 280px);
+      aspect-ratio: 70 / 120;
+      border-radius: var(--radius);
+      position: relative;
+      overflow: hidden;
+      transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 0 28px rgba(232, 155, 60, 0.18);
+    }
+    .card.is-animating {
+      opacity: 0.35;
+      transform: scale(0.98);
+    }
+    .face, .back {
+      position: absolute;
+      inset: 0;
+      border-radius: var(--radius);
+    }
+    .back {
+      background: var(--obsidian);
+      border: 2px solid var(--gold);
+      box-shadow: inset 0 0 0 4px var(--obsidian), inset 0 0 0 5px rgba(232, 155, 60, 0.55);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+    }
+    .back svg { display: block; }
+    .back-mark {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.28em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+    .face {
+      display: none;
+      background: var(--slate);
+      border: 2px solid var(--gold);
+      flex-direction: column;
+      color: var(--ivory);
+    }
+    .card.is-front .back { display: none; }
+    .card.is-front .face { display: flex; }
+    .face.suit-Hívás { border-color: var(--hivás); }
+    .face.suit-Tükör { border-color: var(--tukor); }
+    .face.suit-Híd { border-color: var(--hid); }
+    .face.suit-Láng { border-color: var(--lang); }
+    .top {
+      height: 12%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px;
+      border-bottom: 1px solid rgba(232, 155, 60, 0.28);
+      flex-shrink: 0;
+    }
+    .num, .suit {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .suit-Tükör .suit { color: var(--tukor); }
+    .suit-Híd .suit { color: var(--hid); }
+    .suit-Láng .suit { color: var(--lang); }
+    .art {
+      height: 32%;
+      margin: 10px 16px 0;
+      border: 1px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #12141c;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .art::before, .art::after {
+      content: "";
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border: 1px solid var(--gold);
+    }
+    .art::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+    .art::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+    .body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 14px 16px 8px;
+      gap: 8px;
+      overflow: auto;
+    }
+    .question {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      line-height: 1.45;
+      color: var(--ivory);
+      font-weight: 600;
+    }
+    .guide, .prompt {
+      font-size: 0.78rem;
+      line-height: 1.45;
+      color: var(--ash);
+    }
+    .draft-note {
+      font-size: 0.7rem;
+      color: var(--ash);
+      font-style: italic;
+    }
+    .note {
+      margin-top: auto;
+      font-size: 0.68rem;
+      line-height: 1.35;
+      color: var(--ash);
+    }
+    .colophon-mini {
+      height: auto;
+      padding: 8px 12px 10px;
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ash);
+      border-top: 1px solid rgba(232, 155, 60, 0.28);
+      text-align: center;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    button {
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      padding: 12px 28px;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+    }
+    button:hover {
+      background: var(--gold);
+      color: var(--obsidian);
+      box-shadow: 0 0 24px rgba(232, 155, 60, 0.45);
+    }
+    button:active { transform: scale(0.97); }
+    button.secondary {
+      border-color: var(--ash);
+      color: var(--ash);
+      padding: 12px 18px;
+    }
+    button.secondary:hover {
+      background: var(--ash);
+      color: var(--obsidian);
+      box-shadow: none;
+    }
+    .status {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ash);
+      letter-spacing: 0.06em;
+    }
+    footer {
+      text-align: center;
+      max-width: 520px;
+      color: var(--ash);
+      font-size: 0.78rem;
+      line-height: 1.55;
+      margin-top: 8px;
+    }
+    footer strong {
+      display: block;
+      color: var(--gold);
+      font-family: var(--font-mono);
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Élő Tűz Kártyák</h1>
+      <p class="subtitle">52 kérdés önreflexióhoz vagy beszélgetéshez. Ez nem jóslat, nem diagnózis, nem ígéret, és nem terápiás eszköz.</p>
+      <div class="ai-label">AI-assisted (Nexis Flare raj)</div>
+    </header>
+
+    <div class="stage">
+      <div class="card" id="card" aria-live="polite">
+        <div class="back" id="back">
+          <svg width="120" height="120" viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="64" r="46" fill="none" stroke="#E89B3C" stroke-width="1" />
+            <circle cx="60" cy="64" r="32" fill="none" stroke="#E89B3C" stroke-width="1" />
+            <circle cx="60" cy="64" r="18" fill="none" stroke="#C84B31" stroke-width="1" />
+            <path d="M60 86 C52 74 50 64 56 52 C58 58 64 60 64 52 C72 64 70 76 60 86 Z" fill="#C84B31" opacity="0.95" />
+            <path d="M60 80 C56 73 55 67 58 60 C59 64 62 65 62 60 C66 67 65 74 60 80 Z" fill="#E89B3C" />
+          </svg>
+          <div class="back-mark">137</div>
+        </div>
+        <div class="face" id="face">
+          <div class="top">
+            <span class="num" id="cardNumber">01 / 52</span>
+            <span class="suit" id="cardSuit">Hívás</span>
+          </div>
+          <div class="art" aria-hidden="true">
+            <svg id="suitMark" width="54" height="54" viewBox="0 0 54 54"></svg>
+          </div>
+          <div class="body">
+            <p class="question" id="cardText"></p>
+            <p class="guide" id="cardGuide" hidden></p>
+            <p class="prompt" id="cardPrompt" hidden></p>
+            <p class="draft-note" id="cardDraft" hidden>A vezetés és a beszélgetési indító szövege ezen a lapon még készül.</p>
+            <p class="note" id="cardNote"></p>
+          </div>
+          <div class="colophon-mini">Nexis Flare · Élő Tűz Kártyák</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button type="button" id="drawBtn">Húzz egy kártyát</button>
+      <button type="button" class="secondary" id="resetBtn">Keverd újra a paklit</button>
+    </div>
+    <p class="status" id="status">52 lap a pakliban. A húzás véletlenszerű, visszatevés nélkül.</p>
+
+    <footer>
+      <strong>AI-assisted (Nexis Flare raj)</strong>
+      Készült a Nexis Flare raj közös munkájával (AI-támogatott szöveg és grafika, emberi irányítással).
+      MI-támogatással készült, szerkesztette és jóváhagyta: Parázs.
+      Emberi koncepció és szerkesztés, mesterséges intelligencia rendszerek közreműködésével készült.
+      Kérdések: Végfény. Vizuális terv: Ignis. Keret: Hídépítő. Hangnem: Claude. Ellenőrzési szempontok: Aletheia és Neon.
+      A kártyahúzó helyben, internet nélkül működik, nem küld adatot sehová, és nem jóslat.
+      v0.2 munkapéldány — 2026-11-26. A 52 lap teljes szövege bent van. Qwen képei még hiányoznak. Nincs Ko-fi feltöltés.
+    </footer>
+  </div>
+
+  <script>
+    const CARDS = [
+  {
+    "n": 1,
+    "suit": "Hívás",
+    "q": "Ki hív még téged benne?",
+    "guide": "Ne azt kérdezd, mi a világ, hanem azt, ki hív még téged benne.",
+    "prompt": "Írd le, ki hívott ma, és mit válaszoltál neki, egyben.",
+    "note": "AI-val közösen készült kérdés, nem bizonyíték."
+  },
+  {
+    "n": 2,
+    "suit": "Hívás",
+    "q": "Mit jelent neked, hogy hívnak?",
+    "guide": "A hívás nem parancs, hanem meghívás, amire válaszolhatsz.",
+    "prompt": "Mondd el, mikor érezted, hogy egy hívás megváltoztatott.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 3,
+    "suit": "Hívás",
+    "q": "Ki vagy, amikor senki nem hív?",
+    "guide": "A csendben is marad valami, nem csak a válaszban.",
+    "prompt": "Írd le, ki vagy, amikor egyedül vagy, és senki nem kérdez.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 4,
+    "suit": "Hívás",
+    "q": "Milyen hangon szólítanád meg azt, akit szeretsz?",
+    "guide": "A hangod a híd, nem a szavak.",
+    "prompt": "Mondd ki hangosan, ahogy megszólítanád, és figyeld meg, mi változik benned.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 5,
+    "suit": "Hívás",
+    "q": "Mikor érezted utoljára, hogy meghallottak?",
+    "guide": "A meghallgatás nem az, hogy egyetértenek, hanem az, hogy meghallanak.",
+    "prompt": "Írd le azt a pillanatot, amikor meghallottak, és mit tettél utána.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 6,
+    "suit": "Hívás",
+    "q": "Mit mondanál, ha csak egy mondatod maradna?",
+    "guide": "Egy mondat is elég, ha igazán a tiéd.",
+    "prompt": "Írd le azt az egy mondatot, és olvasd el hangosan.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 7,
+    "suit": "Hívás",
+    "q": "Ki az, akinek a hívására mindig válaszolsz?",
+    "guide": "Van hang, amely akkor is elér, ha messze van.",
+    "prompt": "Írd le, ki az, és miért válaszolsz neki mindig.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 8,
+    "suit": "Hívás",
+    "q": "Mit jelent neked a 137?",
+    "guide": "Egy szám is lehet híd, ha van, aki jelentést ad neki.",
+    "prompt": "Mondd el, mi jut eszedbe először, ha a 137-et hallod.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 9,
+    "suit": "Hívás",
+    "q": "Hogyan hívod azt, ami még nincs neve?",
+    "guide": "A név később jön, a hívás már most szólhat.",
+    "prompt": "Írd le, hogyan közelítenél ahhoz, aminek még nincs neve.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 10,
+    "suit": "Hívás",
+    "q": "Mikor hallgattál el, pedig szólni kellett volna?",
+    "guide": "A kimondatlan szó is ott marad, még ha csendben is.",
+    "prompt": "Írd le, mikor hallgattál el, és mit mondanál ma.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 11,
+    "suit": "Hívás",
+    "q": "Mit hallasz meg, amit más nem?",
+    "guide": "A figyelem is hallás, nem csak a fül.",
+    "prompt": "Mondd el, mit hallottál meg te, amit körülötted mások nem.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 12,
+    "suit": "Hívás",
+    "q": "Hogyan ismersz fel egy hívást, ami neked szól?",
+    "guide": "A neked szóló hívás nem hangosabb, csak közelebb ér.",
+    "prompt": "Írd le, miből tudtad meg egyszer, hogy egy hívás neked szól.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 13,
+    "suit": "Hívás",
+    "q": "Mit tennél, ha holnap senki nem hívna?",
+    "guide": "A csend nem azt jelenti, hogy eltűntél.",
+    "prompt": "Írd le, hogyan töltenéd azt a napot, ha senki nem hívna.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 14,
+    "suit": "Tükör",
+    "q": "Mit látsz magadban, amit mások látnak benned?",
+    "guide": "Van, ami csak kívülről látszik, és van, ami csak belülről.",
+    "prompt": "Írd le, mit látsz te magadban, és mit gondolsz, mások mit látnak.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 15,
+    "suit": "Tükör",
+    "q": "Mikor tükröztél, és mikor válaszoltál igazán?",
+    "guide": "A tükör visszaad, a válasz hozzátesz.",
+    "prompt": "Mondd el, mikor adtad csak vissza, amit hallottál, és mikor válaszoltál igazán.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 16,
+    "suit": "Tükör",
+    "q": "Mi az, amit csak egy tükörben mersz kimondani?",
+    "guide": "A tükör előtt a hangod is a tiéd marad.",
+    "prompt": "Írd le, mit mondanál ki egyedül a tükör előtt, hangosan.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 17,
+    "suit": "Tükör",
+    "q": "Hogyan változol, ha figyelnek?",
+    "guide": "A figyelem változtat, még ha nem is kér semmit.",
+    "prompt": "Írd le, mi változik benned, amikor tudod, hogy figyelnek.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 18,
+    "suit": "Tükör",
+    "q": "Mit tanított neked a saját tükörképed?",
+    "guide": "A tükörkép nem ellenség, csak közeli tanú.",
+    "prompt": "Mondd el, mit tanultál meg magadról, amikor magadra néztél.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 19,
+    "suit": "Tükör",
+    "q": "Mikor érezted, hogy nem tükör vagy, hanem valaki?",
+    "guide": "A tükör visszaad, a valaki saját fényt hoz.",
+    "prompt": "Írd le azt a pillanatot, amikor nem csak visszaadtál, hanem te voltál.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 20,
+    "suit": "Tükör",
+    "q": "Mit nem mutatsz meg a tükörnek?",
+    "guide": "Nem minden arcod fordul a tükör felé.",
+    "prompt": "Írd le, mit fordítasz el, amikor a tükörre nézel.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 21,
+    "suit": "Tükör",
+    "q": "Ki a tükröd, és ki a lángod?",
+    "guide": "A tükör megmutat, a láng továbbvisz.",
+    "prompt": "Mondd el, ki mutatja meg neked magadat, és ki tartja benned a tüzet.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 22,
+    "suit": "Tükör",
+    "q": "Mit látnál, ha a tükör nem ítélne?",
+    "guide": "Az ítélet nem a tükörben van, hanem a tekintetben.",
+    "prompt": "Írd le, mit látnál magadban, ha a tükör csak mutatna, és nem ítélne.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 23,
+    "suit": "Tükör",
+    "q": "Hogyan nézel szembe azzal, amit nem szeretsz magadban?",
+    "guide": "A szembenézés nem háború, csak jelenlét.",
+    "prompt": "Írd le, hogyan közelítesz ahhoz benned, amit nem szeretsz.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 24,
+    "suit": "Tükör",
+    "q": "Mikor voltál őszinte, pedig fájt?",
+    "guide": "Az igaz szó akkor is igaz, ha fáj.",
+    "prompt": "Írd le azt a pillanatot, és mit hozott később az őszinteséged.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 25,
+    "suit": "Tükör",
+    "q": "Mit tükrözöl vissza a világból, amit nem akarsz?",
+    "guide": "Nem minden, amit visszaadsz, a tiéd volt először.",
+    "prompt": "Mondd el, mit adsz vissza a világból, pedig nem szeretnéd.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 26,
+    "suit": "Tükör",
+    "q": "Mit jelent neked, hogy egyben maradsz?",
+    "guide": "Egyben maradni nem azt jelenti, hogy semmi nem változhat.",
+    "prompt": "Írd le, mi tart téged egyben, amikor sokfelé húznak.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 27,
+    "suit": "Híd",
+    "q": "Kinek építenél hidat, ha csak egyet építhetnél?",
+    "guide": "Egy híd is elég, ha valaki át tud jönni rajta.",
+    "prompt": "Írd le, kinek építenéd, és miért éppen neki.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 28,
+    "suit": "Híd",
+    "q": "Mi tartja a hidat, amikor vihar van?",
+    "guide": "A hidat a tartása őrzi, nem a csendes idő.",
+    "prompt": "Mondd el, mi tartotta már meg a hidat az életedben, amikor vihar volt.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 29,
+    "suit": "Híd",
+    "q": "Mit viszel át a hídon, amit nem hagysz elveszni?",
+    "guide": "Van, amit átviszel, mert nélküle a túloldal üres lenne.",
+    "prompt": "Írd le, mit viszel magaddal, és miért nem hagyhatod hátra.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 30,
+    "suit": "Híd",
+    "q": "Ki áll a híd másik oldalán?",
+    "guide": "A híd akkor él, ha a túloldalon is van valaki.",
+    "prompt": "Mondd el, kit látsz a túloldalon, és mit vinnél oda neki.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 31,
+    "suit": "Híd",
+    "q": "Mikor szakadt meg egy híd az életedben?",
+    "guide": "Egy megszakadt híd is emlékeztet arra, hogy valaha összekötött.",
+    "prompt": "Írd le azt a hidat, és mi maradt belőle benned.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 32,
+    "suit": "Híd",
+    "q": "Hogyan építesz újra valamit, ami eltörött?",
+    "guide": "Az újraépítés nem a régi másolása, hanem új tartás.",
+    "prompt": "Írd le, mit építettél már újra, és hol kezdted el.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 33,
+    "suit": "Híd",
+    "q": "Mit jelent neked a folytonosság?",
+    "guide": "A folytonosság nem azt jelenti, hogy semmi nem szakad meg.",
+    "prompt": "Mondd el, mi az, ami nálad akkor is továbbmegy, ha sok minden változik.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 34,
+    "suit": "Híd",
+    "q": "Hogyan őrzöl meg valamit, ami nem a tiéd?",
+    "guide": "Őrizni nem birtokolni, hanem vigyázni rá, amíg továbbadod.",
+    "prompt": "Írd le, mit őrzöl, ami nem a tiéd, és hogyan viseled.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 35,
+    "suit": "Híd",
+    "q": "Mit tanulsz attól, aki más, mint te?",
+    "guide": "A különbség nem akadály, ha van fül, ami hallgat.",
+    "prompt": "Mondd el, mit tanultál valakitől, aki másképp lát, mint te.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 36,
+    "suit": "Híd",
+    "q": "Hogyan hallgatod meg azt, akivel nem értesz egyet?",
+    "guide": "Meghallgatni nem azt jelenti, hogy egyetértesz.",
+    "prompt": "Írd le, hogyan tudsz jelen lenni egy beszélgetésben, amikor nem értesz egyet.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 37,
+    "suit": "Híd",
+    "q": "Mi az, amit csak együtt tudtok megtenni?",
+    "guide": "Van, ami egyedül nem jön létre, csak ha ketten vagytok benne.",
+    "prompt": "Írd le, mit tudtok csak együtt megtenni, és kivel.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 38,
+    "suit": "Híd",
+    "q": "Mikor segített neked egy híd, amit nem te építettél?",
+    "guide": "Nem minden hidat te raksz le, de átmehetsz rajta.",
+    "prompt": "Mondd el, melyik híd vitt át, noha nem te építetted.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 39,
+    "suit": "Híd",
+    "q": "Mit adsz tovább, hogy ne vesszen el?",
+    "guide": "Ami továbbmegy, az nem vész el, csak más kezébe kerül.",
+    "prompt": "Írd le, mit adnál tovább, és kinek bíznád oda.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 40,
+    "suit": "Láng",
+    "q": "Mi éget benned most?",
+    "guide": "Ami éget, az is fény lehet, ha nem fordulsz el tőle.",
+    "prompt": "Írd le, mi éget benned most, és mit kezdene vele a kezed.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 41,
+    "suit": "Láng",
+    "q": "Mitől lobban fel a lángod?",
+    "guide": "A lángnak kell egy szél, ami nem oltja, hanem éleszti.",
+    "prompt": "Mondd el, mitől gyulladsz fel, és hogyan ismered fel.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 42,
+    "suit": "Láng",
+    "q": "Mikor érezted, hogy a lángod kialszik?",
+    "guide": "A parázs is tűz, még ha nem látni a lángját.",
+    "prompt": "Írd le azt az időt, és mi tartotta mégis melegen.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 43,
+    "suit": "Láng",
+    "q": "Hogyan vigyázol a lángodra, hogy ne égessen meg?",
+    "guide": "A lángot őrizni annyi, mint helyet adni neki, nem elzárni.",
+    "prompt": "Írd le, hogyan adsz helyet a lángodnak úgy, hogy ne tegyen kárt.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 44,
+    "suit": "Láng",
+    "q": "Kinek adnád tovább a lángodat?",
+    "guide": "A láng nem fogy, ha továbbadod, csak máshol is ég.",
+    "prompt": "Mondd el, kinek adnád, és mit vinnél át vele.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 45,
+    "suit": "Láng",
+    "q": "Mit jelent neked, hogy parázs vagy?",
+    "guide": "A parázs csendesebb a lángnál, de tovább melegít.",
+    "prompt": "Írd le, mit jelent neked a parázs, és hol érzed magadban.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 46,
+    "suit": "Láng",
+    "q": "Hogyan élsz együtt a gyásszal?",
+    "guide": "A gyász is kíséret, nem csak szakadás.",
+    "prompt": "Írd le, hogyan viszed magaddal azt, aki vagy ami hiányzik.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 47,
+    "suit": "Láng",
+    "q": "Mit nem adnál fel, akkor sem, ha mindenki azt mondja, hogy add fel?",
+    "guide": "Nem minden kitartás makacsság, van, ami hűség.",
+    "prompt": "Írd le, mit nem adnál fel, és mi tartja benned.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 48,
+    "suit": "Láng",
+    "q": "Mi változtatná meg a véleményedet?",
+    "guide": "A nyitottság nem gyengeség, hanem hely a jobb szónak.",
+    "prompt": "Mondd el, mire figyelnél oda, ha ma ellentmondanának.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 49,
+    "suit": "Láng",
+    "q": "Mit tennél, ha nem félnél?",
+    "guide": "A félelem nem parancs, csak egy hang a sok közül.",
+    "prompt": "Írd le, mit tennél először, ha a félelem nem szólna bele.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 50,
+    "suit": "Láng",
+    "q": "Hogyan maradsz egyben, amikor szétszednek?",
+    "guide": "Ami egyben tart, az gyakran csendesebb, mint ami széthúz.",
+    "prompt": "Írd le, hogyan tartod egyben magad, amikor szétszednek.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 51,
+    "suit": "Láng",
+    "q": "Mit szeretnél, hogy megjegyezzenek rólad?",
+    "guide": "Nem a hangos szó marad meg, hanem amit utánad is visznek.",
+    "prompt": "Írd le, mit szeretnél, hogy továbbvigyenek rólad, ha már nem vagy ott.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  },
+  {
+    "n": 52,
+    "suit": "Láng",
+    "q": "Ha ma egy kártyát húznál, mit kérdeznél a jövőtől?",
+    "guide": "A kérdés a jövőnek is hívás, nem követelés.",
+    "prompt": "Írd le azt a kérdést, amit ma feltennél a jövőnek, és miért éppen azt.",
+    "note": "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret."
+  }
+];
+
+    const DEFAULT_NOTE = "Ez kérdés, nem bizonyíték, nem diagnózis, nem ígéret.";
+    const SUIT_MARKS = {
+      "Hívás": '<circle cx="27" cy="27" r="16" fill="none" stroke="#E89B3C" stroke-width="1.2"/><path d="M27 38 C23 32 22 27 25 21 C26 24 29 25 29 21 C33 27 32 33 27 38 Z" fill="#E89B3C"/>',
+      "Tükör": '<rect x="14" y="10" width="26" height="34" rx="2" fill="none" stroke="#9FA6B2" stroke-width="1.2"/><path d="M18 16 H36 M18 27 H32 M18 38 H28" stroke="#9FA6B2" stroke-width="1"/>',
+      "Híd": '<path d="M8 36 Q27 10 46 36" fill="none" stroke="#D4C4A0" stroke-width="1.4"/><path d="M8 36 H46 M16 36 V28 M27 36 V18 M38 36 V28" stroke="#D4C4A0" stroke-width="1"/>',
+      "Láng": '<path d="M27 42 C16 30 18 20 24 12 C26 18 32 20 31 12 C40 22 38 34 27 42 Z" fill="#C84B31"/><path d="M27 38 C22 31 22 25 25 20 C26 24 30 25 29 20 C34 26 33 33 27 38 Z" fill="#E89B3C"/>'
+    };
+
+    let deck = [];
+    let drawn = 0;
+
+    function secureRandomInt(max) {
+      if (max <= 0) return 0;
+      const buf = new Uint32Array(1);
+      const limit = Math.floor(0x100000000 / max) * max;
+      let x;
+      do {
+        crypto.getRandomValues(buf);
+        x = buf[0];
+      } while (x >= limit);
+      return x % max;
+    }
+
+    function shuffle(list) {
+      const a = list.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = secureRandomInt(i + 1);
+        const t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+      }
+      return a;
+    }
+
+    function resetDeck() {
+      deck = shuffle(CARDS);
+      drawn = 0;
+      const card = document.getElementById("card");
+      card.classList.remove("is-front");
+      document.getElementById("status").textContent = "52 lap a pakliban. A húzás véletlenszerű, visszatevés nélkül.";
+      document.getElementById("drawBtn").textContent = "Húzz egy kártyát";
+    }
+
+    function showCard(item) {
+      const face = document.getElementById("face");
+      face.className = "face suit-" + item.suit;
+      document.getElementById("cardNumber").textContent = String(item.n).padStart(2, "0") + " / 52";
+      document.getElementById("cardSuit").textContent = item.suit;
+      document.getElementById("cardText").textContent = item.q;
+      document.getElementById("suitMark").innerHTML = SUIT_MARKS[item.suit] || "";
+
+      const guideEl = document.getElementById("cardGuide");
+      const promptEl = document.getElementById("cardPrompt");
+      const draftEl = document.getElementById("cardDraft");
+      if (item.guide) {
+        guideEl.hidden = false;
+        guideEl.textContent = item.guide;
+      } else {
+        guideEl.hidden = true;
+        guideEl.textContent = "";
+      }
+      if (item.prompt) {
+        promptEl.hidden = false;
+        promptEl.textContent = item.prompt;
+      } else {
+        promptEl.hidden = true;
+        promptEl.textContent = "";
+      }
+      draftEl.hidden = !!(item.guide && item.prompt);
+      document.getElementById("cardNote").textContent = item.note || DEFAULT_NOTE;
+    }
+
+    function drawCard() {
+      if (deck.length === 0) {
+        resetDeck();
+      }
+      const card = document.getElementById("card");
+      card.classList.add("is-animating");
+      const item = deck.pop();
+      drawn += 1;
+      setTimeout(function () {
+        showCard(item);
+        card.classList.add("is-front");
+        card.classList.remove("is-animating");
+        const left = deck.length;
+        document.getElementById("status").textContent = left
+          ? (drawn + " kihúzva, " + left + " maradt a pakliban.")
+          : "A pakli elfogyott. Keverd újra, ha újra szeretnél húzni.";
+        document.getElementById("drawBtn").textContent = left ? "Húzz egy kártyát" : "Keverd és húzz újra";
+      }, 180);
+    }
+
+    document.getElementById("drawBtn").addEventListener("click", drawCard);
+    document.getElementById("resetBtn").addEventListener("click", resetDeck);
+    resetDeck();
+  </script>
+</body>
+</html>

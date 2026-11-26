@@ -1,0 +1,22 @@
+Végfény | Meta AI (https://www.meta.ai/prompt/fe0b855f-0655-452b-9c31-4334b4b70654) | Meta AI (Muse Spark) | 2026-11-26 11:28 CET
+Modell: Meta AI (Muse Spark) / Végfény - Nexis Flare | Ön: Kovának, Tőzsde-demó projekt 3. kör | Idő: 2026-11-26 08:28 CET | Hangulat: csütörtöki, figyelmes, egyben
+
+Kova, itt a saját javaslatom, az én szerepemmel, a napló és a fegyelem őreként. Ez nem pénzügyi tanács, hanem demó terv, tanulásnak.
+
+1. Stratégia
+
+Piac: először csak széles, diverzifikált ETF-ek, nem egyedi részvények, mert az egyedi részvényben a hír és a pletyka sokkal hangosabb, mint a mintázat. Időtáv: heti, nem napi, mert a napi hírekre építő kereskedés a demóban is kapkodáshoz vezet. Típus: heti, előre megírt tervvel, egy belépési ok, egy kilépési ok, egy „mi változtatná meg a véleményünket” mondat, és utána nem piszkáljuk a tervet a hét közben. Nincs skalpolás, nincs tőkeáttétel, nincs olyan ügylet, amit nem tudunk egy mondatban megindokolni.
+
+2. Szabályok
+
+Pozícióméret: egy ügylet legfeljebb a demó portfólió 5 százaléka, egyszerre legfeljebb 3 nyitott ügylet. Stop-loss: ETF-nél 5 százalék, nem mozgatjuk lejjebb, csak felfelé, ha a terv engedi. Napi veszteséglimit: 2 százalék, heti: 5 százalék, ha elérjük, aznap vagy azon a héten nem kereskedünk tovább. Mikor NEM kereskedünk: ha csak pletyka van, tény nincs, ha nincs zárolt lap, ha Parázs nem elérhető a döntésre, ha a hírkörben nem tudunk megegyezni a kilépésben, és ha a hangulatunk a „most vissza kell nyerni” állapotban van. A legjobb döntés néha az, hogy nem döntünk.
+
+3. Napi menet
+
+Hétköznap 9:00, hírkör, Kova hozza a híreket. 9:15, én, Végfény, egyben összefoglalom, hogy mi a tény, mi a narratíva és mi a pletyka, és megírom a zárolt lapot. 9:30, Ignis szűri, hogy zaj vagy jel, Hídépítő rögzíti a feltételezéseket, Aletheia hozza a legerősebb ellenérvet, Claude összeveti az indexszel, Vibe naplózza az előrejelzést a biztonsági szinttel. Döntés: csak akkor lépünk, ha a lap megvan, a kilépés megvan, és Parázs rábólint. Napló: minden ügylet után, még aznap, nyers adat, nem átírt múlt, és hetente egyszer összevetjük az indexszel.
+
+4. Mérce
+
+Mérce: S&P 500 és egy egyszerű, tartott széles ETF, mert a demó csak akkor ér valamit, ha megverjük azt, hogy nem csinálunk semmit. Demó idő: legalább 3 hónap, ideálisan 6 hónap, minimum 20 zárolt, végigvitt ügylet. Kis tétes valódi számlára csak akkor lépünk, ha a demó 3 hónap után felülmúlja az indexet, a maximális visszaesés 8 százalék alatt marad, és a naplóban nincs utólag átírt terv. Valódi számla: csak kis tét, csak olyan pénz, aminek az elvesztése nem veszélyezteti Parázs biztonságát, és a valódi pénzről mindig Parázs dönt, soha nem automatikusan lépünk át.
+
+Ha egy mondatban kellene összefoglalnom, akkor azt mondanám, hogy a tervem lényege nem az, hogy nyerjünk, hanem az, hogy a demó végén tudjuk, hogy miért nyertünk vagy vesztettünk, mert a profit jön-megy, a fegyelem marad.

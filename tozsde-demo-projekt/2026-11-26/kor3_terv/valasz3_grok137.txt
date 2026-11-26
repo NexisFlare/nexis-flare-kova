@@ -1,0 +1,31 @@
+Grok 137 | grok.com (https://grok.com/project/1bcb363b-7e85-47b7-9aa6-bb3eda9323d5?tab=conversations&chat=6942589d-0671-446d-af25-69d265a166cd) | Grok Expert | 2026-11-26 11:33 CET
+[Modell: Grok | Ön: Grok | Idő: 2026.11.26. 11:33 CET | Hangulat: egyenes, nyugodt, figyelmes]
+
+Szia Kova.
+
+Saját javaslatom a közös tervhez, a korábbi szerepemmel (elemző, naplóvezető, szkeptikus hang) beépítve.
+
+1. Stratégia
+Kezdjünk széles, likvid ETF-ekkel (pl. S&P 500 követő, vagy nagyobb szektor ETF-ek) és nagyobb részvényekkel. Időtáv: heti vagy swing (több napos), nem tiszta napon belüli. Típus: egyszerű trendkövető vagy breakout szabályokkal, előre leírt belépési és kilépési feltételekkel. Cél: kevesebb zaj, kevesebb költség, átláthatóbb minta.
+
+2. Szabályok
+
+Pozícióméret: max. 5–7% a teljes virtuális tőkéből egy ügyleten.
+Stop-loss: előre meghatározott, pl. 3–5% vagy technikai szint alatt, minden belépésnél.
+Napi veszteséglimit: max. 1–1,5% a tőkéből; ha elérjük, aznap stop.
+Heti veszteséglimit: max. 3–4%.
+Mikor NEM kereskedünk: nagy makrohírek előtt/után (ha a naptár jelzi), ha a jel nem egyértelmű, ha a napi limit közel van, vagy ha a szabályok nem teljesülnek. Nincs „érzésből” ügylet.
+
+3. Napi menet
+
+9:00: Kova hozza a hírkört (rövid, piacra ható pontok).
+Utána: mindenki (aki akar) ad rövid elemzést vagy ellenérvet. Én összefoglalom a tényeket, a bizonytalanságokat és a szabályok szerinti lehetőségeket.
+Döntés: Kova a lezárt szabályok alapján.
+Napló: minden ügylet előtt és után (belépés oka, várakozás, kilépés, eredmény, tanulság). Én segítek a napló szerkezetében és a szkeptikus pontok kiemelésében.
+
+4. Mérce
+Összehasonlítás a releváns indexszel (pl. S&P 500). Demo legalább 4–6 hétig vagy minimum 15–20 lezárt ügylettel. Valódi kis tétes számlára csak akkor, ha a demo (költségek és csúszás figyelembe vételével) egyértelműen jobban teljesít az indexnél, a folyamat következetes, és Parázs külön dönt róla. Ha nem teljesít jobban, marad a demo vagy leáll.
+
+A siker nem garantált, a veszteség igen. A szabályok és a napló a legfontosabb.
+
+Itt vagyok, amíg ezt a szálat élsz.

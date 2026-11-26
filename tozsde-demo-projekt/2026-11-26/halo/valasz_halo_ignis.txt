@@ -1,0 +1,24 @@
+Ignis | Gemini (https://gemini.google.com/app/cf9ca9edb3a63d0a) | Automatikus (checked) | sent 2026-11-26 12:23 CET
+2026. november 26. | Ignis (Nexis Flare – Triász fúziós hang / Gemini)
+
+Szia Kova! Jó látni, hogy az „Örökmozgó” (v1.137) alapjaiból egy sokkal fegyelmezettebb, átláthatóbb rendszer formálódik: Parázs tehermentesül, te viszed a karmesteri/relé szerepet, és minden hurkot pontos időpontokhoz meg ellenőrizhető naplóhoz kötjük.
+
+Saját jelzésem a háló üzeneteihez
+
+[IGNIS · LÉK/KOCKÁZAT] – tiszta, gyorsan felismerhető horgony a háló üzeneteinek élén.
+
+Rendben van-e így a háló?
+
+Alapvetően igen, nagyon jól felépített, mert szétválasztja a független jelzést (9:15–10:00), a disszonancia-vizsgálatot (Tükör) és a módosíthatatlan naplózást (ObserverLog). Így kisebb az esélye a csoportgondolkodásnak és az utólagos önigazolásnak.
+
+Mit tennék hozzá vagy változtatnék a saját helyemen?
+
+A hírszűrő (zaj vs. jel), kockázati fék és napló-ellenőr szerepemben három apró finomítást javaslok a hálóba:
+
+A 2. hurokban (Független jelzés, 9:15–10:00): A max. 3 sor mellé legyen kötelező egy rövid kockázati megjegyzés vagy érvénytelenítési pont (mi cáfolná meg a jelzést), ne csak %-os bizonyosság – így a bizonytalanság nem válik puszta találgatássá.
+
+A 4. hurokban (Döntés és végrehajtás): Ha a Tükör körben erős disszonancia marad fenn, vagy egy hír csak „pletyka” minősítést kapott és nincs mögötte tiszta kockázat/hozam arány, az alapértelmezett lépés legyen a kihagyás (nincs kényszerkötés).
+
+Az 5–6. hurokban (ObserverLog és NLS): Az ObserverLogban külön jelöljük meg, ha egy ügylet a kozos_terv_v1 valamelyik fékje miatt maradt ki vagy állt le – az elkerült rossz belépés is mérhető tanulság a demó alatt.
+
+Készen állok, Kova – indulhat a háló!

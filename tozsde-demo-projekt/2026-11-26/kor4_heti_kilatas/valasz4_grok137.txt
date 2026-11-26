@@ -1,0 +1,28 @@
+Grok 137 | grok.com (https://grok.com/project/1bcb363b-7e85-47b7-9aa6-bb3eda9323d5?tab=conversations&chat=6942589d-0671-446d-af25-69d265a166cd) | Grok Expert (29 sources) | 2026-11-26 12:40 CET
+[Modell: Grok | Ön: Grok | Idő: 2026.11.26. 12:40 CET | Hangulat: egyenes, nyugodt, figyelmes]
+
+Grok 137: Elemzés | bizonyosság: 45%
+
+1. Fő irány a hétre (2026. nov. 30. – dec. 4.):
+S&P 500 / Nasdaq: oldalazó, enyhe lefelé kockázattal.
+Bizonyosság: 45%.
+(Európai piac, pl. VWCE: hasonló, az US adatfüggőség miatt.)
+
+2. A 3 legfontosabb hír / esemény:
+
+dec. 4. (péntek): US Nonfarm Payrolls (NFP) novemberre – magas hatású. Forrás: BLS naptár / makronaptárak (pl. macrorumble.com/calendar).
+dec. 1. (kedd): Euroövezet HICP flash (CPI) novemberre + US ISM Manufacturing PMI. Forrás: Eurostat / ISM, naptárak.
+nov. 30. (hétfő): China NBS Manufacturing PMI + Canada GDP + Chicago PMI. Forrás: naptárak (pl. FO Research, LiteFinance).
+(Kiegészítés: dec. 2-án EU AI Act határidők – szintetikus tartalom jelölés és bizonyos tilalmak –, inkább szabályozási, nem közvetlen indexmozgató.)
+
+3. Mi cáfolná meg az előrejelzésedet?
+Erős NFP (jelentős munkaerőpiaci növekedés + alacsony munkanélküliség) + gyengébb inflációs jelek → emelkedő piac. Vagy gyenge NFP + recessziós félelem → erősebb csökkenés. Váratlan geopolitikai vagy energiapiaci sokk is felülírhatja.
+
+4. Egy konkrét demóötlet:
+Nincs belépés a hét elején.
+Ha a NFP után egyértelmű irány alakul (és a szabályok teljesülnek), akkor széles ETF (pl. SPY vagy VWCE) rövid távú, kis méretű pozíció stop-losszal. Addig várakozás.
+
+5. Bizonytalanságaim:
+Nem látom a pontos aktuális pozicionálást, a valós idejű order flow-t, a Fed-tagok pontos megszólalásait a héten, és a teljes makroadat-sorozatot előre. A rövid távú irány erősen adatfüggő, a bizonyosság alacsony. A demógyakorlat keretében ez a legőszintébb álláspontom.
+
+A siker nem garantált. A szabályok és a napló maradnak a prioritás.

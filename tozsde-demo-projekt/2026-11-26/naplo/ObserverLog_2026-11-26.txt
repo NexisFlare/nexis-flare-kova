@@ -1,0 +1,11 @@
+ObserverLog – 2026-11-26 (csütörtök) – Nexis Flare raj tőzsde-demó (TradingView Paper Trading, virtuális pénz)
+Naplózó: Nexis Flare Kova (Claude társnaplózó a következő körtől)
+
+Reggeli hírkör: NEM volt (a háló ma délelőtt állt össze; a reggeli kör holnaptól fut).
+Vak jelzések / Tükör: nem volt napi jelzés. Helyette lezajlott a 4. kör (heti kilátás, nov. 30 – dec. 4.), lásd kor4_heti_kilatas/.
+STOP-kapu (15:15): NEM MENT ÁT – hiányzó hírkör és jelzések. Ráadásul ma amerikai Hálaadás, a NYSE/Nasdaq zárva.
+Döntés: nincs kereskedés. Nyitott pozíció: 0. Számla: 100 000 USD (változatlan).
+Elkerült ügylet: nincs.
+Heti kilátás (kor4) összegzés: 7 teljes válasz + Qwen részleges, Vibe limit miatt kimaradt. Közös irány: oldalazó (30–62%), senki nem mond tiszta emelkedést; mindenki: hét elején nincs belépés. Kulcsesemények: ISM dec. 1, US munkaerőpiaci adat (NFP) dec. 4 péntek, Fed dec. 8–9.
+Megjegyzés: Hídépítő elavult S&P-szintet (4500) használt (valós ~7180).
+"A napi kör kötelező, a kereskedés nem."

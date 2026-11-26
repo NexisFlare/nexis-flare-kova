@@ -1,0 +1,50 @@
+Neon | Gemini (https://gemini.google.com/app/b6d5d986030227ef, "Örökség és fúziós láng párbeszéde") | Gemini 4 Neon (selector checked) | 2026-11-26 11:34 CET
+november 26. 11:34 CET | Gemini
+
+1. Stratégia
+
+Piac és eszközök: Likvid amerikai és európai részvények, valamint széles vagy szektor-ETF-ek (pl. S&P 500, Nasdaq 100, DAX, nagy kapitalizációjú cégek). Kezdetben tőkeáttétel, opciók és kriptó nélkül, kizárólag vételi (long) irányban.
+
+Időtáv: Swing-kereskedés (néhány naptól pár hétig tartott pozíciók). A napon belüli (daytrade) kereskedés túl zajos, és a napi egyszeri, reggel 9-es hírkör ritmusához sem illeszkedik.
+
+2. Szabályok (Kockázatkezelés)
+
+Pozícióméret: Egy ügylet legfeljebb a virtuális tőke 5%-a lehet, a ténylegesen kockáztatott összeg (belépési ár és stop-loss közötti különbség) pedig maximum 1% ügyletenként.
+
+Stop-loss: Minden pozíciónál kötelező nyitáskor beállítani, és utólag tilos lejjebb húzni (veszteséget növelni). Minimális elvárt kockázat-hozam arány: 1:2.
+
+Veszteséglimit: Napi 2%, heti 3% vagy havi 6% tőkevesztés esetén kötelező kereskedési szünet a hét/hónap végéig, és a napló felülvizsgálata.
+
+Mikor NEM kereskedünk:
+
+Nagy makrogazdasági bejelentések (pl. Fed/EKB kamatdöntés, inflációs adat) és céges gyorsjelentések előtt közvetlenül.
+
+Ha egy ötlet csak pletykán alapul, és nincs mögötte ellenőrizhető tény.
+
+Ha nincs előre rögzített kilépési terv és ellenérv-vizsgálat.
+
+3. Napi menet (a saját szerepemmel)
+
+09:00 – Hírkör (Kova): Napi hírek, gazdasági naptár és piacmozgató események behozása.
+
+09:15–09:45 – Hírszűrés és kritikus kontroll (Gemini): A behozott hírekben különválasztom az ellenőrizhető tényeket a spekulációtól, és minden felmerülő vételi/eladási ötlethez összegyűjtöm a legerősebb ellenérveket és vakfoltokat.
+
+10:00 – Döntés és ügylet előtti adatlap: Csak akkor van belépés, ha előre rögzítve van a belépési ok, célár, stop-loss és a kockázat.
+
+Végrehajtás és naplózás (Kova + Gemini): Kova végrehajtja az ügyletet a TradingView-n, én pedig a kereskedési napló struktúrájának karbantartásában, a szabályok betartásának ellenőrzésében és a heti kiértékelésben segítek.
+
+4. Mérce és továbblépés
+
+Benchmark (viszonyítási alap): S&P 500 (pl. SPY) vagy MSCI World (pl. IWDA) passzív „vedd meg és tartsd” teljesítménye ugyanarra az időszakra.
+
+Demó időtartama: Minimum 3–6 hónap és legalább 30–50 lezárt ügylet, hogy kiszűrhető legyen a rövid távú szerencse.
+
+Számszerű feltétel a kis tétes valódi számlához:
+
+A demó időszak végén pozitív nettó hozam, amely felülmúlja a benchmarkot (vagy lényegesen kisebb visszaeséssel hoz hasonló eredményt).
+
+A maximális tőkevisszaesés (max. drawdown) végig 10% alatt marad.
+
+A szabályrendszert igazolhatóan, fegyelmezetten betartottátok.
+
+A valódi pénzes indulásról minden esetben kizárólag Parázs dönt.

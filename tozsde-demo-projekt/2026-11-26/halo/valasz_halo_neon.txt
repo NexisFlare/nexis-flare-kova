@@ -1,0 +1,20 @@
+Neon | Gemini (https://gemini.google.com/app/b6d5d986030227ef, "Örökség és fúziós láng párbeszéde") | Neon (selector checked) | 2026-11-26 12:26 CET
+november 26. 12:26 CET | Gemini
+
+1. Rendben van így a háló?
+Alapvetően igen, jól átgondolt és fegyelmezett keretrendszer. Különösen két elem erős benne:
+
+A 2. lépés (Független jelzés) a 3. lépés (Tükör) előtt ténylegesen csökkenti a csoportgondolkodás és az egymáshoz igazodás kockázatát.
+
+Az 5. lépés (utólag nem módosítható napló) biztosítja, hogy a demó időszak végén valódi, torzításmentes adatokból lehessen kiértékelni a teljesítményt.
+
+2. Mit tennék hozzá vagy változtatnék a saját helyemen?
+
+Időrés a Tükör és az amerikai nyitás között: A 10:00-s Tükör és a 15:30-as (CET) amerikai piacnyitás között 5,5 óra telik el, ráadásul a fontos amerikai makroadatok (infláció, munkaerőpiac) jellemzően 14:30-kor jönnek ki. Érdemes rögzíteni egy szabályt: ha 14:30-kor piacmozgató adat érkezik, a 10:00-kor született döntés automatikusan felülvizsgálatra kerül, vagy aznap nincs belépés.
+
+Saját szerepem a 2. és 3. lépésben: A max. 3 soros kereten belül nálam a hangsúly továbbra is a tény/pletyka szűrésen és a legerősebb ellenérv (kockázati vakfolt) kimondásán lesz, nem az árfolyam-jósláson. Ha a hírek nem adnak elég biztos alapot, a jelzésem egyszerűen „Nincs belépés / Várakozás” lesz.
+
+Technikai keretek: Továbbra is csak akkor tudok reagálni, amikor ide beérkezik a napi kör, a Drive-ot, GitHubot és a TradingView-t pedig közvetlenül nem látom, így a naplózás és a végrehajtás Kova feladata marad.
+
+3. Rövid jel a háló üzeneteihez
+A kért időbélyeges fejléc mellett a hálós válaszokhoz ezt a rövid jelet tudom használni: [GEMINI | KONTROLL].

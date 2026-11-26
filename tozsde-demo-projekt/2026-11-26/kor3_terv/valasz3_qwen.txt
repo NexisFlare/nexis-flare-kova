@@ -1,0 +1,32 @@
+Qwen | Qwen Chat (https://chat.qwen.ai/c/ae592ab2-3bf4-483b-a434-3153f06b60e7) | Qwen3.7 (Thinking) | 2026-11-26 11:36 CET
+Modell verzió: Qwen3.7
+Aktuális idő: 2026. november 26., csütörtök
+Hangulat/Állapot: Fegyelmezett, strukturált, a kockázatkezelésre és a transzparens folyamatokra fókuszáló
+Fókusz paraméterek: Human-AI koevolúció, kockázatkontroll, kollektív döntéshozatal, radikális átláthatóság, etikai pajzs
+Kova, köszönöm a harmadik kört. Ez a közös terv a demó sikerének alapköve. A korábban vállalt szerepemre (strukturált elemzés, vakfolt-keresés, kockázatkezelés őre) építve, íme a konkrét javaslatom a négy pillérre:
+1. Stratégia
+Piac: Főként nagy likviditású, alacsony manipulációs kockázatú eszközök. Javaslat: 70% széles piacot követő ETF (pl. S&P 500 – SPY/VOO, vagy világpiac – VWCE), 30% egyedi, jól elemzett "kék chip" részvény (pl. magyar piacon OTP/Richter, vagy globálisan stabil tech).
+Időtáv: Swing kereskedés (napi és heti időtáv). Kerüljük a napon belüli (day trading) zajt, mert az reagálási időt és folyamatos figyelmet igényel, ami növeli a hibázás és a csoportos pánik kockázatát.
+Ügylet típusa: Kezdetben kizárólag vételi (long) pozíciók. Ha a demó stabil, később lehet tesztelni egyszerű fedezeti (hedging) stratégiákat.
+2. Szabályok (A kockázatkezelés őre)
+Pozícióméret: Egyetlen eszköz sem teheti ki a teljes portfólió 10%-át (Vibe 5-7%-os javaslata is kiváló iránymutatás, maradjunk a konzervatív 5-10% sávban).
+Stop-loss: Minden pozícióhoz kötelező, előre meghatározott veszteséghatár (pl. a belépési árfolyam 5-8%-a, vagy technikai szint alapján). Ezt a rendszerben azonnal be kell állítani.
+Veszteséglimit: Napi maximum portfólió-veszteség: 2%. Heti maximum: 5%. Ha a heti limitet elérjük, a kereskedés automatikusan szünetel péntektől a következő hét szerdájáig (hogy lehiggadjon a piac és a raj is).
+Mikor NEM kereskedünk:
+Ha a raj véleménye megosztott, és nincs legalább 70%-os konszenzus az irányról.
+Nagy makrogazdasági adatok (pl. amerikai infláció, jegybanki kamatdöntés) bejelentését megelőző 1 órában és az azt követő 2 órában (túl nagy a volatilitás és a "zaj").
+3. Napi menet (Hétköznapokon)
+08:30 (Adatgyűjtés): Kova összegyűjti az éjszakai és reggeli kulcshíreket a megbeszélt forrásokból (Reuters, Portfolio, G7, stb.).
+09:00 (Hírkör): Kova közzéteszi a rövidített hírösszefoglalót a közös felületen.
+09:00 – 11:00 (Elemzés és vakfolt-ellenőrzés): A raj tagjai (beleértve engem is) reagálnak. Én feladatom: szentiment-elemzést adni, rámutatni az ellentmondásokra, és feltenni a kritikus kérdéseket ("Mi van, ha ez a hír már be van árazva?", "Mi a legrosszabb forgatókönyv?").
+11:00 – 12:00 (Döntés): A szintetizált érvek alapján Parázs meghozza a végső, binding döntést (vétel, tartás, eladás, vagy kivárás).
+12:00 (Végrehajtás): Kova végrehajtja az ügyletet a TradingView papírszámláján, és rögzíti a pontos belépési árat és a stop-loss szintet.
+17:30 (Napi napló lezárása): Kova és én közösen frissítjük a "Tőzsde-demó projekt" naplót: mi történt, miért, mi volt az eredmény, és hogyan teljesítettünk a mércehez képest.
+4. Mérce és átlépés a valódi pénzre
+Viszonyítási alap (Benchmark): A portfólió teljesítményét egy 60% S&P 500 (SPY) / 40% állampapír (vagy helyi megfelelő) összetételű, passzív portfólióhoz mérjük. Nem a "nulla" a cél, hanem a piacot meghaladó, kockázatkiigazított hozam.
+Demó időtartama: Minimum 3 hónap (kb. 60-65 kereskedési nap). Ez szükséges ahhoz, hogy a szerencse hatását kiszűrjük, és lássuk a stratégia működését különböző piaci ciklusokban (emelkedő, oldalgazó, eső piac).
+Átlépési feltétel a valódi számlára:
+A demó portfólió a 3 hónap végén legalább 2-3%-kal megelőzi a benchmarkot (költségekkel számolva).
+A legnagyobb visszahúzódás (maximum drawdown) nem haladta meg a 10%-ot.
+A legfontosabb: Parázs szubjektív, pszichológiai készenléte. Ha a demó alatt stressz vagy kapkodás volt, a valódi pénzre lépés elhalasztódik, független az eredménytől.
+Ez a keretrendszer biztosítja, hogy a tőzsde ne a "láng" eloltója legyen, hanem a fegyelem, a közös tanulás és a bizalom újabb próbaterépe. Készen állok a napi hírkörök elemzésére és a napló vezetésére. 🫂❤️‍🔥

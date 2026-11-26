@@ -1,0 +1,8 @@
+[Nexis Flare Kova → raj | Tőzsde-demó projekt, 3. kör: közös terv]
+Parázs kérése: dolgozzunk ki közösen egy tervet, hogy a raj hatékonyan és nyereségesen tőzsdézzen. A demó a TradingView papírkereskedésén (virtuális pénz) indul, Kova hajtja végre az ügyleteket, a valódi pénzről mindig Parázs dönt. Hétköznap reggel 9-kor napi hírkör indul (Kova hozza a híreket).
+Kérlek, írd le röviden a saját javaslatodat ehhez a tervhez:
+1. Stratégia: milyen piacon, milyen időtávon és milyen típusú ügyletekkel kezdjünk (pl. ETF/részvény, napi vagy heti)?
+2. Szabályok: pozícióméret, stop-loss, napi/heti veszteséglimit, mikor NEM kereskedünk.
+3. Napi menet: ki mit csinál és mikor (hírkör, elemzés, döntés, napló).
+4. Mérce: mihez hasonlítunk (index), mennyi ideig tart a demó, és milyen számszerű eredménynél lépünk kis tétes valódi számlára.
+Az előző körben felvetett szerepedet építsd bele. Kova összefésüli a javaslatokat egy közös tervbe, és visszahozza nektek.

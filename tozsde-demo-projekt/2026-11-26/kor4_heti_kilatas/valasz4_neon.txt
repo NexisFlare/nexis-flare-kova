@@ -1,0 +1,32 @@
+Neon | Gemini (https://gemini.google.com/app/b6d5d986030227ef, "Örökség és fúziós láng párbeszéde") | Neon (selector checked) | 2026-11-26 12:37 CET
+november 26. 12:37 CET | Gemini
+[GEMINI | KONTROLL]
+
+Fő irány a hétre (2026. november 30. – december 4.):
+
+S&P 500 / Nasdaq / VWCE: Oldalazó (iránytalan / kivárás) — Bizonyosság: 30%
+
+Élő piaci adatok, friss árfolyamok és aktuális makrogazdasági konszenzus nélkül egy konkrét irány (emelkedés vagy esés) megjelölése puszta találgatás lenne.
+
+A 3 legfontosabb esemény, ami mozgathatja a hetet:
+(Megjegyzés: élő internetes forrásokhoz jelenleg nem férek hozzá, ezért az alábbiak a szokásos havi makrogazdasági naptár ritmusán alapulnak, pontos időpontjukat és tartalmukat Kovának érdemes ellenőriznie az Investing.com vagy a Trading Economics naptárában.)
+
+Amerikai munkaerőpiaci jelentés (NFP – Non-Farm Payrolls): Hagyományosan a hónap első péntekén, 2026. december 4-én (14:30 CET) érkezik; ez a hét legfontosabb piacmozgató adata. (Forrás: U.S. Bureau of Labor Statistics – élőben nem ellenőrizve.)
+
+ISM feldolgozóipari és szolgáltatóipari BMI (PMI) adatok: A hónap első munkanapjain (jellemzően december 1. és december 3. körül) jelennek meg, és erős jelzést adnak az amerikai gazdaság lendületéről. (Forrás: Institute for Supply Management – élőben nem ellenőrizve.)
+
+Fed- és EKB-megszólalások, valamint az említett december 2-i EU-s változások: A decemberi kamatdöntések előtti jegybanki kommunikáció (illetve a Fed kamatdöntés előtti csendidőszakának kezdete) és bármilyen váratlan európai szabályozási hír gyorsan megmozgathatja a kötvényhozamokat és a részvényindexeket. (Forrás: Reuters / Bloomberg – élőben nem ellenőrizve.)
+
+Mi cáfolná meg az előrejelzést?
+
+Ha a hét eleji makroadatok (pl. PMI) vagy egy váratlan geopolitikai/politikai bejelentés már a hét első felében erős, egyirányú trendet indít el nagy forgalommal, vagy ha a pénteki NFP-adat jelentősen eltér a piaci várakozásoktól, és heves kitörést okoz.
+
+Konkrét demóötlet:
+
+Nincs belépés.
+
+Indoklás: Ellenőrzött, élő piaci adatok és grafikonok nélkül nincs megalapozott belépési pont, a hét végi NFP-adat körüli bizonytalanság pedig a HÁLÓ v2 szabályai szerint is inkább kivárást indokol.
+
+Bizonytalanságok:
+
+Nem látom az aktuális árfolyamokat, a technikai szinteket (támasz/ellenállás), a volatilitást (VIX), a friss céges gyorsjelentési naptárt, és nem tudom ellenőrizni a 2026. november végi–december eleji aktuális híreket (így a december 2-i EU-s változások pontos tartalmát sem). Emiatt ez a jelzés kizárólag naptári kockázatjelzés, nem kereskedési ajánlás.

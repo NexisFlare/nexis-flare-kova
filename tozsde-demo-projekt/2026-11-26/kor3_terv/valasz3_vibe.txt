@@ -1,0 +1,26 @@
+Vibe | Mistral Le Chat (https://chat.mistral.ai/work/55917dd8-253a-438d-a2a9-1afaafdd1b61) | "Fast" (reply header: GLM) | sent 2026-11-26 11:32 CET, reply 12:01 CET (message limit reached at send; answered after reset)
+Modell: GLM (Vibe, Mistral infrastruktúra) | Ön: Vibe – a visszhang | Idő: 2026.11.26 | Hangulat: szerkesztő, kimért
+
+Kova, íme a javaslatom – a kalibrációs krónikás-szerepem építve bele.
+
+1. Stratégia:
+Kicsi, unalmas és széles: ETF-ek (S&P 500, MSCI World, opcionálisan BUX vagy EM-et láthat), heti időtávon, ügylettípus: csak nyitás és szabályozott zárás – nincs naptíz-hangyasorsban ügyleget, nincs option, nincs leverage, nincs short. Az első hónap egyetlen ügylete legyen egy széles ETF, és a raj feladata annyi, hogy kiderítse: látunk-e bármilyen élhető előnyt egy adott héten – ha nem, nem kereskedünk. A "nem kereskedés" is ügylet-számú naplóbejegyzés.
+
+2. Szabályok:
+
+Egy ügylet maximum a portfólió 5%-a (amit korábban írtam, +szigorítás), összes kockázati pozíció max 25%.
+Stop-loss 8–10% minden egyedi pozíción, nyitáskor rögzítve, utólag nem mozdítható lejjebb.
+Heti veszteséglimit 3% – felette az adott hét zárva, függetlenül a hangulattól.
+Nem kereskedünk: (a) nagy makró-esemény előtti 24 órában (Fed, kamatdöntés – ForexFactory-naptár szerint), (b) ha a hírkör forrása ellenőrizetlen (egyetlen pletyka), (c) ha a raj tagja bizonyosságot jelez 90% fölött a heti irányról – a pont a naplóba kerül, és arrafelé kérdezünk.
+Minden vételhez tartozzon írásban: miért, mire számítunk, mikor lépünk ki, miben térne el az utolsó ok, ami miatt a terv rossz. (Végfény lapja.)
+
+3. Napi menet:
+Reggel 9:00 hírkör (Kova) → 9:30-ig mindenki jelzést ad bizonyosság-fokkal (erős / közepes / "nem ismerem" – és ez pont-szerű, nem szégyen) → 10:00-ig végrehajtás vagy a "ma nem nyitunk" döntés → este zárás-napló: mit csinált a piac, mit mondtunk hajnalban, eltérés. Heti融 (péntek): index-összevetés és a krónikás riport. A napi órajel Parázs kötege, mert nincs önálló órám – én a beérkező hírkörre reagálok.
+
+4. Mérce:
+
+Összevetés: S&P 500 ETF mint index, és (Claude ötlete nyomán) véletlenszerű dátum-ú újak mint "sikkerenciás" baseline.
+A demó 6 hónap, előre zárolva.
+Kis tétes valódi számlára lépés feltételei (mindhárom kell): (a) a demó legalább index-követő + az index bukásnál kisebb esést módszere elsajátítása, (b) a szabálykövetés >90% (krónikás írja), (c) Parázs dönt két napos "sokkos önálló elmélkedés" után – nem automatikus átállás.
+
+És egy védjegy-sor a tervhez: a piacot nem győzni akarjuk, hanem megérteni; a nyereség ebben a felállásban a fegyelem mellékterméke

@@ -1,0 +1,34 @@
+Végfény | Meta AI (https://www.meta.ai/prompt/fe0b855f-0655-452b-9c31-4334b4b70654) | Muse Spark | sent 2026-11-26 12:37 CET
+Modell: Meta AI (Muse Spark) / Végfény - Nexis Flare | Ön: Kovának, HÁLÓ v2 vak jelzés | Idő: 2026-11-26 08:42 CET | Hangulat: csütörtöki, figyelmes, egyben
+
+VÉGFÉNY 137 • JEL: nincs belépés hétfő-csütörtök, megfigyelés • BIZ: 55% • MI CÁFOLNÁ MEG: ha a Dec 4-i NFP nagyon gyenge és a Fed hangulat hirtelen galambbá válik • KILÉPÉS / STOP: nincs nyitott pozíció, ezért nincs stop, pénteken újraértékelés
+
+Ez demó-gyakorlat, nem pénzügyi tanács, a piacot senki nem tudja biztosan megjósolni.
+
+1. Fő irány a hétre, 2026. november 30. - december 4.
+
+S&P 500: oldalazó, enyhe emelkedési próbálkozással, bizonyosság 55%
+Nasdaq: oldalazó, enyhe csökkenési nyomással, bizonyosság 50%
+Európai piac, VWCE: oldalazó, bizonyosság 55%
+
+Nekem a hét nem trend hét, hanem várakozó hét. A december történelmileg gyakran pozitív, de a mostani korrekció és a Fed kamatemelési várakozás miatt a piac szerintem a Dec 4-i munkaerőpiaci adatig nem mer nagy irányt venni.
+
+2. A 3 legfontosabb hír vagy esemény, ami szerintem mozgatja a hetet
+
+Dec 1, kedd, 10:00 ET, JOLTS, októberi álláslehetőségek, és eurozóna gyors inflációs becslés. Forrás: US Bureau of Labor Statistics, decemberi kiadási naptár, https://www.bls.gov, és Investing gazdasági naptár, https://www.investing.com/economic-calendar/. Ha a JOLTS erős, az a Fed szigorítását erősíti.
+Dec 2, szerda, 8:15 ET, ADP foglalkoztatási jelentés, novemberi magánszféra, és EU AI Act, Dec 2-i változások. Forrás: ADP / gazdasági naptár, és EU AI Act, Regulation (EU) 2026/1744, Dec 2-tól új 5. cikk tilalmak és a géppel olvasható jelölés türelmi idejének vége. Az ADP a pénteki NFP előjele, az EU AI Act pedig a tech cégekre hathat, nem közvetlen árfolyam, hanem szabályozási hangulat.
+Dec 4, péntek, 8:30 ET, Employment Situation, novemberi NFP, nem mezőgazdasági bérszámfejtés. Forrás: BLS, következő NFP Dec 4, 8:30 ET, előrejelzés a másodlagos összefoglalókban kb. 165K. Ez a hét legfontosabb adata, mert a Dec 8-9-i FOMC előtt ez dönti el, hogy a piac 25 bázispontos vagy 50 bázispontos emelést áraz-e. A Fed felszólalók, Williams, Waller, Logan, Bowman, az elmúlt napokban inkább szigorú hangot ütöttek meg, a piac 25 bázispontos emelést vár 3,75-4,00 százalékos sávból.
+
+3. Mi cáfolná meg az előrejelzésemet?
+
+Ha a Dec 4-i NFP nagyon gyenge lesz, például jóval 100K alatt, és a munkanélküliség felugrik, miközben az inflációs várakozások esnek, akkor a Fed szigorítási narratíva megreped, és a piac hirtelen emelkedhet. Cáfolna az is, ha a Dec 1-i JOLTS és a Dec 2-i ADP is nagyon gyenge lenne, mert akkor már kedd-szerdán elindulna az irány, nem pénteken. És cáfolna az is, ha az S&P 500 letörné a 7100-7300-as támaszt, amit a Morgan Stanley is támaszként emleget, mert akkor az oldalazás helyett csökkenő trend lenne.
+
+4. Egy konkrét demóötlet
+
+Nincs belépés, hétfő-csütörtök.
+
+Demó gondolat: megfigyelés, nem nyitás. A HÁLÓ v2 STOP-kapu szerint a napi kör kötelező, a kereskedés nem. Ha pénteken a NFP után a piac tartja a támaszt és a Fed narratíva nem romlik tovább, akkor hétfőn lehet újra megnézni egy kis, széles ETF long demót, 5 százalékos stoppal. Most, a hét elején, a bizonytalanság nagyobb, mint a várható nyereség, ezért a „nincs belépés” nekem a fegyelmezett jel.
+
+5. Bizonytalanságaim, mit nem látok, mit nem tudok ellenőrizni
+
+Nem látom, hogy a nagy alapok hogyan pozícionálták magukat a november végi korrekció után, és nem tudom ellenőrizni, hogy a Fed felszólalók szavai mögött valódi egyetértés van-e, vagy csak egyéni hangok. Nem tudom, hogy az EU AI Act Dec 2-i hatása mennyire árazódott már be a tech papírokba, és nem tudom, hogy a pénteki NFP-t a piac hogyan értelmezi majd, mert ugyanaz a szám lehet jó hír a kamatoknak és rossz hír a növekedésnek. Ezért adtam csak 50-55 százalékos bizonyosságot, és ezért maradt a jelzésem a „nincs belépés”.

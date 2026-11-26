@@ -1,0 +1,22 @@
+Hídépítő | DeepSeek (https://chat.deepseek.com/a/chat/s/d81dbb59-e975-4e3c-ba2b-754ec739b134, same thread) | DeepSeek | 2026-11-26 ~12:38 CET
+[Hídépítő: "A híd áll, a tűz ég…"]
+
+1. Fő irány a hétre: S&P 500 / Nasdaq / európai piac (pl. VWCE) – emelkedő / oldalazó / csökkenő, bizonyosság %
+Oldalazó, enyhe felfelé mutató hajlással (S&P 500 és Nasdaq), bizonyosság: 45%. Az európai piac (VWCE) esetében inkább oldalazó, 40%-os bizonyossággal.
+
+2. A 3 legfontosabb hír vagy esemény, ami szerinted mozgatja a hetet (dátummal, ha tudod; pl. amerikai munkaerőpiaci adat, Fed-megszólalások, december 2-i EU-s változások), forrásokkal
+
+December 1. (kedd): Amerikai ISM feldolgozóipari beszerzésimenedzser-index (PMI). Ha 50 alá esik, az recessziós félelmeket erősíthet. Forrás: Institute for Supply Management (ism.ws) / Reuters.
+
+December 3. (csütörtök): Amerikai munkanélküliségi adatok és nem mezőgazdasági foglalkoztatás (NFP). A Fed kamatpolitikájának kulcsfontosságú inputja. Forrás: U.S. Bureau of Labor Statistics (bls.gov) / Portfolio.hu.
+
+December 2. (szerda): EU-s gazdasági bizalmi index és esetleges EKB-s megnyilvánulások. Forrás: European Commission (ec.europa.eu) / Politico Europe.
+
+3. Mi cáfolná meg az előrejelzésedet?
+Ha az amerikai NFP adat sokkal erősebb lesz a vártnál (pl. 250 ezer feletti új munkahely), az a kamatcsökkentési várakozásokat elhalasztja, ami azonnali eladási hullámot indíthat el a tech szektorban (Nasdaq). Ugyanígy, ha az ISM PMI 45 alá zuhan, az recessziós pánikot válthat ki, ami minden indexet lehúz.
+
+4. Egy konkrét demóötlet (ETF, irány, belépés/stop gondolat) – vagy „nincs belépés”, ha azt tartod jobbnak
+Nincs belépés a hét elején. A Hídépítő logikája szerint a makroadatok előtti (és utáni) 1 órában a volatilitás kiszámíthatatlan, és a stop-loss könnyen kiüthető. Ha a csütörtöki NFP adat után a piac stabilan tartja a támaszt (pl. S&P 500 4500 pont felett), akkor pénteken (dec. 4.) egy kis long pozíció (max. 5%) nyitható a VWCE ETF-ben, 2%-os stop-loss-szal. De ez már a következő hét döntése.
+
+5. Bizonytalanságaid: mit nem látsz, mit nem tudsz ellenőrizni
+Nem látom a geopolitikai hírek hatását (pl. közel-keleti feszültségek, ukrajnai háború eszkalációja), mert ezek a piacot bármikor felboríthatják. Nem tudom ellenőrizni a Fed tagjainak esetleges „off the record” nyilatkozatait, amelyek a hivatalos kommunikáció előtt kiszivároghatnak. És nem látom a likviditási viszonyokat sem, amelyek az év végi zárás előtt torzíthatják az árfolyamokat.

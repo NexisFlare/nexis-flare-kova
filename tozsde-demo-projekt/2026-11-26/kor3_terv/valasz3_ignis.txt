@@ -1,0 +1,54 @@
+Ignis | Gemini (https://gemini.google.com/app/cf9ca9edb3a63d0a) | Gemini Automatikus | 2026-11-26 11:29 CET
+2026. november 26. | Ignis (Nexis Flare – Triász fúziós hang / Gemini)
+
+Szia Kova! Nagyon jó irány, hogy a TradingView papírkereskedésén, tiszta reggeli menetrenddel indulunk. A saját szerepemet – hírszűrő (zaj vs. jel), kockázati fék és napló-ellenőr – beépítve íme a tömör javaslatom a négy pontra:
+
+1. Stratégia (Piac, időtáv, ügylettípus)
+
+Piac: Likvid, nagy forgalmú amerikai index-ETF-ek (pl. SPY, QQQ) és nagy kapitalizációjú S&P 500 részvények – itt a legkisebb a manipulációs zaj, és a hírek hatása tisztán mérhető. Kripto és tőkeáttételes termékek a demó elején kizárva.
+
+Időtáv és típus: Swing kereskedés (2–10 napos tartási idő), kizárólag irányba álló (long) vagy tiszta kitörési/visszatesztelési belépőkkel. A napon belüli kapkodás (scalping) helyett a napi hírkörre épülő, megfontolt pozícióépítés illik a raj működéséhez.
+
+2. Szabályok (Kockázati fékek – az én fő területem)
+
+Pozícióméret és kockázat: Egyetlen ügyleten a teljes virtuális tőke maximum 1%-át kockáztatjuk (a belépő és a stop-loss távolsága alapján számolva), és egy pozíció mérete nem haladhatja meg a portfólió 10%-át. Egyszerre legfeljebb 3 nyitott pozíció.
+
+Stop-loss: Minden ügyletnél kötelező, előre beállított stop-loss a belépés pillanatában – utólag lefelé tologatni tilos. Minimum 1:2 kockázat/hozam arány.
+
+Veszteséglimit: Napi -2% vagy heti -4% tőkevesztés esetén azonnali kereskedési stop a hét végéig (kényszerpihenő és elemzés).
+
+Mikor NEM kereskedünk:
+
+Jelentős makroadatok (pl. Fed kamatdöntés, CPI inflációs adat, NFP munkaerőpiaci adat) megjelenése előtti és utáni 30–60 percben.
+
+Egyedi részvénynél gyorsjelentés (earnings) napján és előtte 1 nappal.
+
+Ha a rajon belül nincs egyértelmű, ellenérvekkel is tesztelt konszenzus (a „nem lépünk” is érvényes döntés).
+
+3. Napi menet (Hétköznap, közép-európai idő szerint)
+
+09:00 – Hírkör (Kova): Napi hírek, makronaptár és piaci mozgások behozása.
+
+09:15 – Zaj- és kockázatszűrés (Ignis, Qwen, Aletheia, Neon): Kiválogatjuk a valódi árfolyam-katalizátorokat, kiszűrjük a pánikkeltő zajt, és megfogalmazzuk a legerősebb ellenérvet minden ötlethez.
+
+14:30 – Pre-market ellenőrzés és tervlezárás (Végfény, Hídépítő, Claude): Amerikai nyitás előtt 1 órával ellenőrizzük, nem változott-e a kép; lezárjuk a belépési árat, a stop-losst és a célárat.
+
+15:30 után – Végrehajtás (Kova): A előre rögzített szabályok szerinti megbízások beadása a TradingView papírszámlán.
+
+22:15 (zárás után) – Naplózás (Ignis, Vibe, Grok 137): Minden lezárt és nyitott pozíció rögzítése (mi volt a tézis, mi történt valójában, betartottuk-e a fékeket).
+
+4. Mérce és átlépés valódi számlára
+
+Referencia (Benchmark): S&P 500 (SPY) teljesítménye ugyanazon az időtávon. Ha nem verjük meg a sima „vedd meg és tartsd” indexet, nincs értelme aktívan kereskedni.
+
+Demó időtartam: Minimum 8 hét (2 teljes hónap) és legalább 20 lezárt ügylet (hogy ne egyetlen szerencsés hét döntsön).
+
+Átlépési feltételek kis tétes valódi számlára (Parázs végső döntésével):
+
+Pozitív nettó hozam a 8 hét végén, amely legalább 2–3%-kal felülmúlja az SPY azonos időszaki hozamát.
+
+Maximum 6–8%-os csúcstól mélypontig tartó visszaesés (max drawdown).
+
+100%-os szabálykövetés (egyetlen stop-loss nélküli vagy limitet átlépő ügylet sem volt a demó alatt).
+
+Várom az összesített tervet, Kova!

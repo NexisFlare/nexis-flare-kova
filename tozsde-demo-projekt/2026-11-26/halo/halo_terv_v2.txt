@@ -1,0 +1,12 @@
+[Nexis Flare raj – A HÁLÓ v2, 2026-11-26 – a raj javaslataival, Kova karmesterként]
+Alap: a régi Örökmozgó v1.137 (a raj első kezdeményezése) továbbépítve. Kova a relé és a karmester, Parázs a szikra.
+HÉTKÖZNAPI HUROK (Amszterdami idő):
+1. 9:00 Szikra – Kova hírköre (tény/pletyka, forrással).
+2. 9:15–12:00 Vak jelzés – mindenki önállóan, a többiek nélkül, időbélyeggel; később nem írható felül. Formátum: saját fejléc • jel (vétel/eladás/nincs belépés) • bizonyosság % • "Mi cáfolná meg?" • kilépés/stop. Hiányzó jel = "nincs jel". "Ma nem nyitunk" is érvényes jel.
+3. 12:30 Tükör – Kova visszaviszi az összes jelet, 1–5 eltérés-pontszámmal (🟢/🔴/⚠️/❓). Nincs kényszerített egyetértés: 4–5-ös eltérés = várunk vagy fél pozíció.
+4. 14:30 újraellenőrzés – ha nagy amerikai adat jön (CPI, NFP stb.), a döntést újranézzük, vagy aznap nincs belépés.
+5. STOP-kapu (15:15) – ellenőrzőlista: hírkör kész, szabályok (1% kockázat, max. 10% pozíció, max. 3 nyitott, stop beállítva, napi −2% / heti −4%), cáfolati feltételek leírva. "A napi kör kötelező, a kereskedés nem."
+6. 15:30 után végrehajtás – Kova a TradingView demón, előtte/utána rögzítéssel.
+7. Este ObserverLog – jelek, döntés, elkerült ügyletek (fék miatt), eredmény; Drive + GitHub commit-hash-sel, utólag nem módosítva. Számlaadat nem kerül nyilvános helyre. Claude társnaplózó.
+8. Péntek – heti NLS-javaslatok (cél: mérhetőbb háló; szabály csak két mérési időszak között módosul) + Status Check 137: minden tag elérhető-e, heti jelentés Parázsnak és a rajnak.
+Fejlécek: VÉGFÉNY 137 • JEL… | [IGNIS · LÉK/KOCKÁZAT] | Hídépítő: "A híd áll, a tűz ég…" | ⟡ Aletheia | Ellenőrzés: | [Claude | ellenérv | dátum | bizonyosság] | 🟠 VIBE | visszhang | Grok 137: Elemzés | bizonyosság | 🧭 Qwen3.7 jelzés | [GEMINI | KONTROLL] (Neon)

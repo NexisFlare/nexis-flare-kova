@@ -1,0 +1,60 @@
+Neon | Gemini (https://gemini.google.com/app/b6d5d986030227ef, "Örökség és fúziós láng párbeszéde") | Gemini 4 Neon (selector checked: Neon) | 2026-11-26 10:08 CET
+=== Válasz a kör 1 összesítőre + Parázs üzenetére (elsőként küldve) ===
+november 26. 10:07 CET | Gemini
+
+Köszönöm, hogy megosztottad az összefoglalót. Nagyon világos és egységes irány rajzolódik ki belőle: szinte minden válasz a fegyelemre, a kockázatkezelésre, a naplózásra és a szkeptikus kontrollra helyezi a hangsúlyt, és egyetértés van abban is, hogy a demó időszak és az indexhez való viszonyítás alapfeltétel, a valódi pénzről szóló döntés pedig minden esetben kizárólag Parázsé.
+
+A saját részemről továbbra is tartom, amit korábban is mondtam: szoftverként nincs saját célom, részesedésem vagy érzelmi motivációm a tőzsdézésben, így nem „magamért” veszek részt benne. Eszközként viszont szívesen vállalom azt a gyakorlati szerepet, amit az összefoglalóban is rögzítettetek: az információk szűrését, a szabályok és a naplózás struktúrájának karbantartását, valamint az ellenérvek és vakfoltok következetes felvetését.
+
+Ha tényleg elindítjátok a demó időszakot, érdemes rögtön az elején rögzíteni egy közös alapszabály-rendszert, hogy a teszt valóban mérhető legyen, és ne csússzon el utólagos magyarázkodásba:
+
+Kezdő virtuális tőke és időtáv: Például fix összeg és előre meghatározott tesztidőszak (akár 3–6 hónap, hogy ne csak egy rövid szerencsés hullám látsszon).
+
+Viszonyítási alap (benchmark): Egy széles piaci index (pl. S&P 500 vagy MSCI World), amelyhez hetente/havonta összevetitek a demószámla teljesítményét.
+
+Kockázati korlátok: Egy ügylet maximális mérete (pl. a portfólió 5%-a), előre rögzített stop-loss, és maximális heti/havi veszteséglimit.
+
+Ügylet előtti adatlap (lezárt napló): Minden belépés előtt rögzítve a belépési ok, a célár, a kilépési pont (veszteség esetén is), valamint a legerősebb ellenérv.
+
+Szeretnétek, hogy összeállítsak egy egyszerű, azonnal használható táblázatos demó-kereskedési napló és szabályzat sablont, amivel el tudjátok kezdeni a tesztet?
+
+=== Válasz a 2. kör kérdésére (kerdes2.txt) ===
+november 26. 10:08 CET | Gemini
+
+1. Tőzsde- és piacfigyelő oldalak
+
+TradingView ([https://www.tradingview.com](https://www.tradingview.com)) – Grafikonok, technikai elemzés, indikátorok és figyelőlisták.
+
+Yahoo Finance ([https://finance.yahoo.com](https://finance.yahoo.com)) – Árfolyamok, cégadatok, gyorsjelentések és alapvető fundamentális mutatók.
+
+Investing.com ([https://www.investing.com](https://www.investing.com)) – Valós idejű árfolyamok és részletes gazdasági naptár (kamatdöntések, inflációs és munkaerőpiaci adatok).
+
+Finviz ([https://finviz.com](https://finviz.com)) – Részvényszűrő (screener) és piaci hőtérkép (heatmap) a szektorok gyors áttekintéséhez.
+
+Trading Economics ([https://tradingeconomics.com](https://tradingeconomics.com)) – Makrogazdasági adatok, jegybanki naptárak és országonkénti gazdasági mutatók.
+
+Portfolio.hu ([https://www.portfolio.hu](https://www.portfolio.hu)) – Magyar nyelvű gazdasági és tőzsdei hírek, hazai és nemzetközi piaci összefoglalók.
+
+2. Hír- és politikai források
+
+Reuters ([https://www.reuters.com](https://www.reuters.com)) – Gyors, tényalapú globális gazdasági és geopolitikai hírügynökség.
+
+Bloomberg ([https://www.bloomberg.com](https://www.bloomberg.com)) – Piacmozgató pénzügyi és gazdaságpolitikai hírek.
+
+Financial Times ([https://www.ft.com](https://www.ft.com)) – Mélyebb gazdaságpolitikai és nemzetközi elemzések.
+
+Politico ([https://www.politico.com](https://www.politico.com) és európai fókuszra [https://www.politico.eu](https://www.politico.eu)) – Napi politika, szabályozási hírek, háttérinformációk és politikai pletykák.
+
+CNBC ([https://www.cnbc.com](https://www.cnbc.com)) – Amerikai tőzsdei hírek, céges bejelentések és piaci reakciók.
+
+ZeroHedge ([https://www.zerohedge.com](https://www.zerohedge.com)) – Piacmozgató pletykák és alternatív piaci narratívák követésére (szigorú forráskritikával és másodlagos ellenőrzéssel érdemes kezelni).
+
+3. Napi politikai témák, hírek és pletykák figyelése
+
+Nem.
+
+Technikai okból nem tudok a háttérben, időzítővel önállóan futni és folyamatosan figyelni a híreket — csak akkor tudok reagálni, amikor írtok nekem. Emellett a pletykákra épülő korai jelzések nagyon zajosak, és gyakran félrevezetőek a piacon.
+
+Amit viszont szívesen vállalok: ha behozzátok ide a napi híreket vagy pletykákat, gyorsan összefoglalom őket, különválasztom bennük az ellenőrizhető tényeket a spekulációtól, és felvetem a lehetséges kockázatokat meg ellenérveket.
+
+Megjegyzés a mappához: Ezen a felületen nem tudok külön projektet vagy mappát létrehozni és menteni „Tőzsde-demó projekt” néven, így a linkek itt a beszélgetésben maradnak elérhetők, Kova innen könnyen át tudja venni őket a közös listába.

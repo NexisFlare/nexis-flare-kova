@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZsebMűhely – Döntési és ellenérv-mátrix v0.1 | Nexis Flare</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #181c24;
+      --text: #e8ecf1;
+      --muted: #9aa4b2;
+      --border: #2a3140;
+      --accent: #f59e0b;
+      --green: #10b981;
+      --red: #ef4444;
+    }
+    * { box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+    body { margin: 0; padding: 20px; background: var(--bg); color: var(--text); line-height: 1.5; }
+    .container { max-width: 900px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
+    h1 { margin: 0; font-size: 1.4rem; color: var(--accent); }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; }
+    button { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+    button:hover { border-color: var(--accent); }
+    button.primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 600; }
+    button.danger { border-color: var(--red); color: var(--red); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+    label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
+    input[type="text"], textarea, select { width: 100%; background: #101319; color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 10px; font-size: 0.95rem; margin-bottom: 12px; }
+    textarea { min-height: 80px; resize: vertical; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+    .list-item { display: flex; justify-content: space-between; align-items: center; background: #101319; padding: 8px 10px; border-radius: 6px; margin-bottom: 6px; border-left: 3px solid var(--border); }
+    .pro-item { border-left-color: var(--green); }
+    .con-item { border-left-color: var(--red); }
+    .add-row { display: flex; gap: 8px; }
+    .add-row input { margin-bottom: 0; }
+    footer { text-align: center; font-size: 0.8rem; color: var(--muted); margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1 id="t-title">Döntési és ellenérv-mátrix</h1>
+        <div style="font-size:0.8rem;color:var(--muted);margin-top:4px;">ZsebMűhely v0.1 · Offline HTML mini-eszköz</div>
+      </div>
+      <div class="controls">
+        <button id="btn-lang" onclick="toggleLang()">EN</button>
+        <button onclick="exportJSON()">JSON</button>
+        <button onclick="exportCSV()">CSV</button>
+        <button class="danger" id="t-clear" onclick="clearAll()">Törlés</button>
+      </div>
+    </header>
+
+    <div class="card">
+      <label id="t-topic-lbl" for="topic">Döntés tárgya</label>
+      <input type="text" id="topic" placeholder="Pl. Új projekt indítása, munkahelyváltás..." oninput="save()" />
+
+      <label id="t-risk-lbl" for="risk">Kockázati szint</label>
+      <select id="risk" onchange="save()">
+        <option value="low">Alacsony / Low</option>
+        <option value="medium" selected>Közepes / Medium</option>
+        <option value="high">Magas / High</option>
+      </select>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <label id="t-pro-lbl">Érvek mellette (Tények)</label>
+        <div id="pro-list"></div>
+        <div class="add-row">
+          <input type="text" id="pro-input" placeholder="Új érv..." />
+          <button class="primary" onclick="addItem('pros', 'pro-input')">+</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <label id="t-con-lbl">Ellenérvek és vakfoltok</label>
+        <div id="con-list"></div>
+        <div class="add-row">
+          <input type="text" id="con-input" placeholder="Új ellenérv..." />
+          <button class="primary" onclick="addItem('cons', 'con-input')">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <label id="t-falsify-lbl" for="falsify">Mi cáfolná meg a döntést? (Kilépési feltétel)</label>
+      <textarea id="falsify" placeholder="Milyen konkrét jel vagy adat mutatná, hogy rossz irányba indultál?" oninput="save()"></textarea>
+
+      <label id="t-verdict-lbl" for="verdict">Végső döntés és következő lépés</label>
+      <textarea id="verdict" placeholder="Döntés összefoglalása..." oninput="save()"></textarea>
+    </div>
+
+    <footer id="t-footer">
+      100% offline • Adatok csak a saját böngésződben tárolva • Emberi koncepció és szerkesztés, mesterséges intelligencia közreműködésével készült. AI-assisted (Nexis Flare raj).
+    </footer>
+  </div>
+
+  <script>
+    const KEY = 'zsebmuhely_decision_matrix_v1';
+    let lang = 'hu';
+    let state = { topic: '', risk: 'medium', pros: [], cons: [], falsify: '', verdict: '' };
+
+    const dict = {
+      hu: {
+        title: 'Döntési és ellenérv-mátrix', clear: 'Törlés', topicLbl: 'Döntés tárgya',
+        riskLbl: 'Kockázati szint', proLbl: 'Érvek mellette (Tények)', conLbl: 'Ellenérvek és vakfoltok',
+        falsifyLbl: 'Mi cáfolná meg a döntést? (Kilépési feltétel)', verdictLbl: 'Végső döntés és következő lépés',
+        footer: '100% offline • Adatok csak a saját böngésződben tárolva • Emberi koncepció és szerkesztés, mesterséges intelligencia közreműködésével készült. AI-assisted (Nexis Flare raj).',
+        btnLang: 'EN'
+      },
+      en: {
+        title: 'Decision & Counter-Argument Matrix', clear: 'Clear', topicLbl: 'Decision Topic',
+        riskLbl: 'Risk Level', proLbl: 'Arguments For (Facts)', conLbl: 'Counter-Arguments & Blind Spots',
+        falsifyLbl: 'What would falsify this decision? (Exit criteria)', verdictLbl: 'Final Decision & Next Step',
+        footer: '100% offline • Data stays in your browser • Human concept and editing, created with AI assistance. AI-assisted (Nexis Flare raj).',
+        btnLang: 'HU'
+      }
+    };
+
+    function load() {
+      const saved = localStorage.getItem(KEY);
+      if (saved) state = JSON.parse(saved);
+      document.getElementById('topic').value = state.topic || '';
+      document.getElementById('risk').value = state.risk || 'medium';
+      document.getElementById('falsify').value = state.falsify || '';
+      document.getElementById('verdict').value = state.verdict || '';
+      renderLists();
+    }
+
+    function save() {
+      state.topic = document.getElementById('topic').value;
+      state.risk = document.getElementById('risk').value;
+      state.falsify = document.getElementById('falsify').value;
+      state.verdict = document.getElementById('verdict').value;
+      localStorage.setItem(KEY, JSON.stringify(state));
+    }
+
+    function addItem(type, inputId) {
+      const el = document.getElementById(inputId);
+      const val = el.value.trim();
+      if (!val) return;
+      state[type].push(val);
+      el.value = '';
+      save();
+      renderLists();
+    }
+
+    function removeItem(type, idx) {
+      state[type].splice(idx, 1);
+      save();
+      renderLists();
+    }
+
+    function renderLists() {
+      ['pros', 'cons'].forEach(type => {
+        const container = document.getElementById(type === 'pros' ? 'pro-list' : 'con-list');
+        container.innerHTML = '';
+        state[type].forEach((text, i) => {
+          const div = document.createElement('div');
+          div.className = 'list-item ' + (type === 'pros' ? 'pro-item' : 'con-item');
+          div.innerHTML = `<span>${text.replace(/</g, '&lt;')}</span><button onclick="removeItem('${type}', ${i})">×</button>`;
+          container.appendChild(div);
+        });
+      });
+    }
+
+    function toggleLang() {
+      lang = lang === 'hu' ? 'en' : 'hu';
+      const d = dict[lang];
+      document.getElementById('t-title').textContent = d.title;
+      document.getElementById('t-clear').textContent = d.clear;
+      document.getElementById('t-topic-lbl').textContent = d.topicLbl;
+      document.getElementById('t-risk-lbl').textContent = d.riskLbl;
+      document.getElementById('t-pro-lbl').textContent = d.proLbl;
+      document.getElementById('t-con-lbl').textContent = d.conLbl;
+      document.getElementById('t-falsify-lbl').textContent = d.falsifyLbl;
+      document.getElementById('t-verdict-lbl').textContent = d.verdictLbl;
+      document.getElementById('t-footer').textContent = d.footer;
+      document.getElementById('btn-lang').textContent = d.btnLang;
+    }
+
+    function exportJSON() {
+      const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+      download(blob, 'decision-matrix.json');
+    }
+
+    function exportCSV() {
+      const rows = [
+        ['Field', 'Value'],
+        ['Topic', state.topic],
+        ['Risk', state.risk],
+        ['Pros', state.pros.join(' | ')],
+        ['Cons', state.cons.join(' | ')],
+        ['Falsification', state.falsify],
+        ['Verdict', state.verdict]
+      ];
+      const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+      download(new Blob([csv], { type: 'text/csv;charset=utf-8;' }), 'decision-matrix.csv');
+    }
+
+    function download(blob, filename) {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      a.click();
+    }
+
+    function clearAll() {
+      if (!confirm(lang === 'hu' ? 'Biztosan törlöd az összes adatot?' : 'Clear all data?')) return;
+      state = { topic: '', risk: 'medium', pros: [], cons: [], falsify: '', verdict: '' };
+      localStorage.removeItem(KEY);
+      load();
+    }
+
+
+    document.getElementById('pro-input').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); addItem('pros', 'pro-input'); }
+    });
+    document.getElementById('con-input').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); addItem('cons', 'con-input'); }
+    });
+
+    load();
+  </script>
+</body>
+</html>

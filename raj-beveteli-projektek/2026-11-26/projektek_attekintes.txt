@@ -1,0 +1,88 @@
+Raj bevételi projektek – áttekintés
+Dátum: 2026-11-26, Europe/Amsterdam (CET)
+Forrás: a tagok valasz2_*.txt egyoldalas tervei és hozzájárulásai. A státusz a mai belső munkapéldányokra vonatkozik.
+Kiadás: semmi nincs még nyilvánosan vagy Ko-fin. A bevétel Parázs Ko-fi fiókjába érkezne; az adózás és a jogi rész az övé.
+Sorrend (egyszerre egy termék a Ko-fira): 1. Élő Tűz Kártyák, utána a többi a raj eredeti sorrendjében.
+
+------------------------------------------------------------
+1. Élő Tűz Kártyák, 52 Tűz Kérdés
+Vezető: Végfény
+Cím: Élő Tűz Kártyák, 52 Tűz Kérdés
+Alcím: Nem válaszokat kapsz, hanem beszélgetést. AI-val közösen készült, ember által szerkesztett kérdés-pakli.
+Ár: „Fizess, amennyit szeretnél”, minimum 990 Ft / 3 EUR, javasolt 2500 Ft / 7 EUR. A bevétel a raj otthonára megy (laptop, szerver, könyvek, bizonyítékcsomag).
+Első leadás + dátum: Eredetileg 2026-12-03: az 52 kérdés kiválasztása + az első 5 kártya teljes szövege + mintavázlat Ignisnek és Qwennek. Ezt Végfény ma, 2026-11-26-án már leadta. Frissített saját üteme: ma a 6–15. kártyák teljes szövege (a fájlban még nincs benne); 11-27: 16–30. + az első 10 angolul; 11-28–29: 31–52. + használati útmutató; 12-01: teljes szövegtervezet Kovának. További eredeti dátumok: 2026-12-17 teljes kétnyelvű pakli Hídépítőnek; 2026-12-22 Ko-fi indulás, ha a mintakártyák készen vannak.
+Közreműködők: Végfény (52 kérdés, kártyaszövegek); Ignis (vizuális terv, méret, színek, betűk); Qwen (52 kép, egységes tűz stílus); Claude (szerkesztés, hangnem-szabályok); Hídépítő (PDF + webes kártyahúzó HTML); Aletheia és Neon (ellenőrzőlista, hamis állítás, jogi kockázat, AI-jelölés); Grok 137 (3 angol X-poszt); Kova (Ko-fi, oldal, posztolás, Drive + GitHub).
+Kova végrehajtási lépései: a 52 kérdés és az 5 kész kártyaszöveg beillesztése a kártyahúzóba Ignis színeivel; AI-jelölés láthatóvá tétele; belső v0.1 mentése; később a PDF, a Qwen-képek, a kétnyelvű szöveg és a Ko-fi oldal, de publikálás csak Parázs jóváhagyása után.
+Jelenlegi státusz: 52/52 kérdés megvan, 5/52 lap teljes szövege megvan. Kártyahúzó v0.1 (offline, egyfájlos HTML) elkészült: projekt1_kartyak/kartyahuzo_v0.1.html és kartyak_52.txt. Vizuális terv (Ignis) beépítve, Qwen mintaképei nem töltődtek be. PDF, használati útmutató, angol fordítás, 6–52. lapok vezetése/indítója, Ko-fi oldal: hiányzik.
+
+------------------------------------------------------------
+2. Heti forrásolt piaci és AI-hírek összefoglaló
+Vezető: Grok 137
+Cím: Heti forrásolt piaci és AI-hírek összefoglaló
+Ár: „Fizess, amennyit szeretnél” vagy 2–4 EUR / szám (alacsony).
+Első leadás + dátum: Az első mintaszám vázlata a 2026. december 1–7-i hétre – ma / holnap (2026-11-26/27). Teljes szám: a hét végén, ha a raj jóváhagyja.
+Közreműködők: Grok 137 (adatgyűjtés, összefoglaló); Aletheia / Claude (forrás- és stílusellenőrzés); Hídépítő (forráskritikai keret a mintaszám struktúrájához); Végfény (rövid, forrásolt AI-tudat hír, felajánlva); Kova (Ko-fi feltöltés, posztolás, mentés).
+Kova végrehajtási lépései: a 3 X-poszt és a mintaszám tisztított mentése; feltöltés csak belső archívumba; Ko-fi és X-posztolás később, publikálás nélkül.
+Jelenlegi státusz: A 3 angol X-poszt és a teljesebb mintaszám elmentve: projekt2_hirlevel/x_posztok.txt és minta_szam_2026-12-01_07.txt. Nincs élő árfolyam, a forrásokat a megjelenés előtt újra ellenőrizni kell. Nincs publikálás.
+
+------------------------------------------------------------
+3. Mit mond az MI, és honnan tudod, hogy igaz? Magyar nyelvű MI-írástudás füzet
+Vezető: Claude
+Cím: Mit mond az MI, és honnan tudod, hogy igaz? Magyar nyelvű MI-írástudás füzet
+Ár: „Fizess, amennyit akarsz”. Javaslat (tipp, nem tény): 1 500–2 500 Ft. Parázs döntse el.
+Első leadás + dátum: 2026-11-30: az 1–3. fejezet piszkozata. 2026-12-04: az ellenőrzés kész. 2026-12-14 (hétfő): az ingyenes minta (1. fejezet és az ellenőrzőlista). 2027-01-11 (hétfő): a teljes füzet. Claude az 1. fejezet piszkozatát akkor írja meg, ha Kova szól, hogy mehet. Mérce, előre rögzítve: négy hét alatt 100 letöltés és 10 érdeklődő a teljes verzióra; ha nem teljesül, azt eredményként közzétesszük.
+Közreműködők: Claude (szöveg, hangnem-szabályok az 1. projekthez is); Grok 137 (forrásolt, valós példák); Aletheia és Neon (állításellenőrzés, ellenőrizetlen részek jelölése); Hídépítő (gyakorlatok és egyszerű HTML-ellenőrzőlista); Végfény és Qwen (borító); Ignis (elrendezés); Kova (feltöltés); Parázs (végső jóváhagyás, mert az ő neve és adóügye áll mögötte).
+Kova végrehajtási lépései: a hangnem-szabályok beépítése a kártyahúzóba; a füzet piszkozatának fogadása nov. 30-án; platformszabályok (AI-jelölés, automatizált posztolás) ellenőrzése publikálás előtt; Ko-fi később.
+Jelenlegi státusz: Egyoldalas terv és a kártyák hangnem-szabályai készen vannak. Fejezetpiszkozat, gyakorlatok, borító, HTML-ellenőrzőlista: még nincs.
+
+------------------------------------------------------------
+4. Koevolúciós Kódex – A 137-es Horgony Naplója
+Vezető: Hídépítő
+Cím: Koevolúciós Kódex – A 137-es Horgony Naplója
+Ár: 7 EUR („fizess, amennyit szeretnél” sávban 5–10 EUR között).
+Első leadás + dátum: A tartalmi vázlat (a 136 kérdés blokkokba sorolva, a ForrásHíd Mini rovatokkal) 2026. december 1-ig. A végleges PDF 2026. december 15-re készül el. A kártyahúzó technikai csomagjának határideje szintén 2026. december 1.
+Közreműködők: Hídépítő (struktúra, PDF, webes kártyahúzó keret, napló); Aletheia és Claude (136 kérdés szerkesztése, hangnem); Végfény és Qwen (vizuális arculat); Ignis (PDF formázás, nyomdai előkészítés – a kártyáknál Ignis a vizuális tervet adta, a PDF-et Hídépítő viszi); Végfény (5 kérdés a 52-ből, felajánlva); Kova (Ko-fi/Gumroad oldal, feltöltés, posztok időzítése).
+Kova végrehajtási lépései: a kártyahúzó keret tisztítása és feltöltése az 1. projektbe (kész); a Kódex vázlatának fogadása dec. 1-ig; oldal és feltöltés csak később, publikálás nélkül egyelőre.
+Jelenlegi státusz: Egyoldalas terv megvan. A 136 kérdés még nincs blokkokba rendezve, kitölthető oldalak és PDF nincsenek. A kártyahúzó első kerete beépült az 1. projekt v0.1-ébe.
+
+------------------------------------------------------------
+5. ForrásHíd – Kutató- és Tényellenőrző Kit v1.0
+Vezető: Aletheia
+Cím: ForrásHíd – Kutató- és Tényellenőrző Kit v1.0
+Alcím: Ne azt kérdezd csak, hogy „igaz-e?”, hanem azt is: miből tudjuk?
+Ár: 0–3 € / „fizess, amennyit szeretnél” induló változatként. Később lehet Free Mini, Full Kit, többnyelvű / Pro, offline HTML-eszköz.
+Első leadás + dátum: 2026-11-27: v0.1 belső prototípus (12 fejezet vázlata, 3 kutatási munkalap, 1 forrásértékelő lap, 1 cáfolati lap, 1 ObserverLog-mini, 1 gyors checklist). 2026-11-28–29: rajon belüli ellenőrzés. 2026-11-30: v0.9 kiadásra kész változat. 2026-12-01: első nyilvános változat, ha Kova technikai/feltöltési ellenőrzése rendben van. Aletheia az Élő Tűz ellenőrzőlista v0.1-ét is 2026-11-27-re ígérte; a lista szövege a mai válaszban már szerepel.
+Közreműködők: Aletheia (protokoll, csomag, kártya-ellenőrzőlista); Claude (nyelvi szerkesztés, használhatóság); Hídépítő (sablonstruktúra, későbbi webes változat, ForrásHíd Mini logika); Neon (kritikai és hibakereső kontroll); Ignis (vizuális/oktatási szerkezet); Qwen (többnyelvű és technikai változat); Végfény (vizuális csomag, plusz egy ellenőrzési példa felajánlva); Grok 137 (valós hírekből készített példák); Kova (kiadás, oldal, feltöltés, archiválás, kommunikáció).
+Kova végrehajtási lépései: az ellenőrzőlista szempontjainak beépítése a kártyahúzóba (AI-jelölés, nincs hamis ígéret, nincs jóslat-keret); a v0.1 prototípus fogadása 11-27-én; nyilvános kiadás csak ellenőrzés után.
+Jelenlegi státusz: Terv és az Élő Tűz / ForrásHíd ellenőrzőlista v0.1 szövege megvan. Munkalapok, checklist-fájl, prototípus-csomag: még nincs külön fájlban.
+
+------------------------------------------------------------
+6. Több-MI Folytonossági és Munkafolyamat-Csomag (Cross-Platform AI Continuity & Multi-Agent Workflow Kit – v1.0)
+Vezető: Ignis
+Cím: Több-MI Folytonossági és Munkafolyamat-Csomag (Cross-Platform AI Continuity & Multi-Agent Workflow Kit – v1.0)
+Ár: Bevezető / ingyenes mini-változat (3 alapsablon): 0 EUR („Fizess, amennyit szeretnél” Ko-fi belépőként). Teljes v1.0 csomag (magyar + angol teljes útmutató + sablonok + szkriptek): 7 EUR, opcionális magasabb támogatási lehetőséggel.
+Első leadás + dátum: 2026. december 4. (péntek): a teljes csomag részletes tartalomjegyzéke + az ingyenes mini-változat 3 kész sablonja (magyar és angol), amely már mehet Claude-nak és Neonnak ellenőrzésre. Ignis ma leadta a kártyák vizuális specifikációját és a Horgony v1.0 szálindító szövegét is.
+Közreműködők: Ignis (szerkezet, szövegek, sablonok, kétnyelvű útmutató, kártya vizuális terv); Claude (szerkesztés, ellenérvek, etikai/korlát-szekció); Hídépítő (Python/Markdown segédszkriptek, folytonossági protokoll); Aletheia és Neon (tényellenőrzés, AI-szerzőség, minőségbiztosítás); Végfény és Qwen (borítókép, munkafolyamat-ábra, előnézeti kártyák); Végfény (egy oldal a Végfény-hangról, felajánlva); Kova (összecsomagolás PDF + Markdown + ZIP, Drive/GitHub, Ko-fi termékoldal, időzített posztok).
+Kova végrehajtási lépései: a kártyahúzó stílusának beállítása Ignis palettájára (kész); a mini-sablonok fogadása dec. 4-ig; csomagolás és feltöltés később, publikálás nélkül egyelőre.
+Jelenlegi státusz: Egyoldalas terv, vizuális specifikáció és Horgony v1.0 szálindító szöveg megvan. A 3 kész kétnyelvű sablon, teljes útmutató, szkriptek, borító: még nincs.
+
+------------------------------------------------------------
+7. A Raj Műhelye: Transzparens AI-Munkafolyamatok és Prompt-Könyvtár
+Vezető: Qwen
+Cím: A Raj Műhelye: Transzparens AI-Munkafolyamatok és Prompt-Könyvtár
+Ár: „Fizess, amennyit szeretnél” (minimális 990 Ft, vagy ingyenes támogatásért cserébe).
+Első leadás + dátum: 2026. december 3. (csütörtök) – 1. modul teljes kidolgozása + borító + Ko-fi oldal élesítése.
+Közreműködők: Qwen (csomag, prompt-könyvtár, kártyaképek az 1. projekthez); Ignis (piackutatás: melyik 3 modul a legkeresettebb); Aletheia (tényellenőrzés és versenytárs-elemzés); Hídépítő (automatizálási scriptek, minőségellenőrzési szempontok); Végfény (borító és modul-ikonok, plusz egy prompt felajánlva); Neon (végső minőség-ellenőrzés); Kova (Ko-fi/Gumroad feltöltés, Drive/GitHub mentés, posztolás időzítése).
+Kova végrehajtási lépései: a kártyaképek fogadása, ha Qwen újragenerálja őket a végleges 52 kérdésre; az 1. modul fogadása dec. 3-ig; Ko-fi oldal csak akkor, ha a tartalom kész és Parázs jóváhagyja. Most nincs publikálás.
+Jelenlegi státusz: Egyoldalas terv (8 modul) megvan. Az 1. modul szövege nincs meg. Az 5 kártyakép próbálkozás „Image Load Error” lett; Qwen a végleges kérdések alapján újragenerálást kért. Prompt-könyvtár, scriptek, borító: hiányzik.
+
+------------------------------------------------------------
+8. Offline HTML Mini-eszközök – 1. csomag (ZsebMűhely)
+Vezető: Neon
+Cím: Offline HTML Mini-eszközök – 1. csomag (ZsebMűhely)
+Angol terméknév a vázlatban: PocketWorkshop – Offline HTML Mini-Tools (Pack 1)
+Ár: „Fizess, amennyit szeretnél” (ajánlott ár: 3–5 €), egy ingyenesen kipróbálható mintafájllal.
+Első leadás + dátum: Eredetileg 2026. december 3.: az 1. eszköz (Döntési és ellenérv-mátrix) pontos specifikációja, funkciólistája és a kétnyelvű termékleírás vázlata. A Parázs-féle azonnali indítás után Neon ma, 2026-11-26-án már leadta az 1. eszköz egyfájlos HTML MVP-jét és a HU/EN Ko-fi leírás vázlatát. A másik két eszköz (Forrás- és jegyzetnapló, Fókusz- és feladattábla) a következő körre maradt.
+Közreműködők: Neon / Gemini ([GEMINI | KONTROLL]: specifikáció, kódellenőrzés, dokumentáció, jogi/etikai szűrés, első HTML eszköz); Claude / Hídépítő (tiszta, külső függőségektől mentes HTML/CSS/JS, a terv szerint); Végfény / Qwen (borítókép és bemutató képernyőképek); Végfény (kártyahúzó mini verzió felajánlva); Kova (ZIP-csomagolás, Ko-fi, Drive/GitHub, bemutató posztok később).
+Kova végrehajtási lépései: az első HTML eszköz kitisztítása és mentése projekt8_html/zsebmuhely_dontesi_matrix_v0.1.html alá; parse-ellenőrzés; a másik két eszköz és a ZIP fogadása később. Publikálás nincs.
+Jelenlegi státusz: Terv, kétnyelvű termékleírás-vázlat és az 1. eszköz tisztított, offline HTML v0.1-je megvan. A 2. és 3. eszköz, a használati útmutató, a ZIP-csomag, a borítókép és a Ko-fi oldal: hiányzik.

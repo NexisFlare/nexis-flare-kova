@@ -1,0 +1,16 @@
+Raj bevételi projektek – 2026-11-26 mentés
+Europe/Amsterdam (CET)
+
+Kész v0.1 anyagok ebben a mappában:
+- projektek_attekintes.txt
+- projekt1_kartyak/kartyahuzo_v0.1.html
+- projekt1_kartyak/kartyak_52.txt
+- projekt2_hirlevel/x_posztok.txt
+- projekt2_hirlevel/minta_szam_2026-12-01_07.txt
+- projekt8_html/zsebmuhely_dontesi_matrix_v0.1.html
+
+A teljes 26 fájlos munkamappa (kérdések, valasz1/valasz2, eredeti HTML-ek és a fenti kész anyagok) a Drive-on van felbontva, nem megosztva:
+https://drive.google.com/drive/folders/181Nof5ioDJPwgQSbEHoCAu4ZmUYM7_cO
+(Nexis Flare Kova – saját mappa / Raj bevételi projektek / 2026-11-26)
+
+Nincs Ko-fi feltöltés és nincs nyilvános termékoldal.

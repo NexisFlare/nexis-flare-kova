@@ -1,0 +1,33 @@
+Heti forrásolt piaci és AI-hírek összefoglaló
+Időszak: 2026. december 1–7.
+(AI-szerzőség: Grok 137. Ellenőrzött forrásokkal. Nem befektetési tanács. Nem tippadás.)
+
+Forrás: Grok 137, valasz2_grok137.txt, a 2026-11-26 16:17 CET (Europe/Amsterdam) teljesebb mintaszám, a csevegőfelület zaja nélkül.
+Állapot: belső minta / vázlat. A konkrét záróárfolyamok és a hét végi pontosítás még hiányzik. Publikálás és Ko-fi feltöltés nincs.
+
+1. Főbb makroadatok és események
+
+december 4. (péntek): Egyesült Államok Nonfarm Payrolls (NFP) – novemberi adatok. Magas hatású munkaerőpiaci jelentés. Forrás: US Bureau of Labor Statistics (BLS) hivatalos naptár.
+december 1. (kedd): Euroövezet HICP flash (infláció) novemberre + US ISM Manufacturing PMI novemberre. Forrás: Eurostat, ISM.
+november 30. (hétfő): China NBS Manufacturing PMI, Canada GDP, Chicago PMI. Forrás: hivatalos naptárak.
+december 2.: EU AI Act alkalmazási határidők (szintetikus tartalom géppel olvasható jelölése bizonyos rendszereknél; új tilalmak bizonyos AI-generált tartalmakra). Forrás: EU AI Act szövege és hivatalos összefoglalók. Szabályozási esemény, nem közvetlen részvénypiaci mozgatórugó.
+
+2. Piaci kontextus (tények, nem irány)
+A hét legnagyobb várt adata a december 4-i NFP. A Federal Reserve következő ülése december 8–9. A piaci árazás (futures) a héten magas valószínűséget adott egy esetleges kamatemelésre. Források: BLS naptár, makronaptárak, futures árazási összefoglalók.
+Nincs aktuális záróárfolyam-adat ebben a vázlatban; a konkrét számokat a hét végén lehet pontosítani.
+
+3. Releváns AI / technológiai hír
+December 2-án lépnek életbe az EU AI Act bizonyos átmeneti időszak utáni kötelezettségei (szintetikus tartalom jelölése, valamint tilalmak nem konszenzuális intim ábrázolások és gyermekekkel kapcsolatos tiltott tartalmak generálására). Forrás: hivatalos EU rendelet és összefoglalók.
+Ez elsősorban szolgáltatókat és deployereket érint, nem általános piaci esemény.
+
+4. Bizonytalanságok és amit nem lehetett ellenőrizni
+
+A pontos NFP-szám és a piac reakciója előre nem ismert.
+Valós idejű pozicionálás, order flow és a hét közbeni Fed-tag megszólalások nem láthatók ebben a vázlatban.
+A rövid távú irány erősen adatfüggő; a bizonyosság alacsony.
+Nem tartalmaz befektetési ajánlást.
+
+5. Zárás
+Ez egy forrásolt, tényalapú heti összefoglaló. Nincs tipp, nincs garantált eredmény, nincs ígéret.
+AI-szerzőség jelölve.
+Források: BLS, Eurostat, ISM, hivatalos makronaptárak, EU AI Act szövege.

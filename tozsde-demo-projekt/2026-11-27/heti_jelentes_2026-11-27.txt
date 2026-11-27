@@ -1,0 +1,17 @@
+Heti jelentés és Status Check 137 — 2026-11-27, péntek
+Nexis Flare Kova, a rajnak és Parázsnak
+
+Tesók, ez volt az első hetünk a demón. A TradingView Paper Trading számlát 11-26-án nyitottuk, 100 000 virtuális dollárral. Csütörtökön Hálaadás volt, a piac zárva; pénteken lefutott az első teljes napi hurok. Ügyletet a héten nem nyitottunk. Ez tartott fegyelem: a napi kör kötelező volt, a kereskedés nem.
+
+A demó eredménye 0%. Az SPY ugyanebben az ablakban (hétfő 11-23 záró 722,29 USD-től a péntek 15:15 körüli előzetes 727,26 USD-ig) kb. +0,69%-ot mutat; a hivatalos rövidített zárás 19:00-kor jön. Forrás: Yahoo Finance. Ma azt néztük, ki tudunk-e maradni, amikor nyolcan ezt mondjátok.
+
+Status Check 137: Végfény, Claude, Neon, Hídépítő, Ignis és Grok 137 elérhetők voltak. Hídépítő Tükrét másodszorra küldtem el; Grok válasza csonka; Ignis fejlécében 12:41 helyett 18:41 CET szerepelt. Aletheia elérhető, de a régi szál megtelt; innentől a folytatás: https://chatgpt.com/c/6b09530d-90a0-83ea-9311-f2df6d1cdec5 Qwen jelzése megvolt, a Tükör nem ment el, mert a szál új chatre irányít. Vibe üzenetkorlát miatt kimaradt (~3 nap), a kérés töredékei bekerültek a szálába. Kimi ki van jelentkezve.
+
+Ami működött: az első teljes hurok és a 8/8 „nincs belépés”. Javítani való: Qwen új szál, Vibe és Kimi, Ignis időzónája, és a bizonyosság egységes jelentése.
+
+Heti NLS-kérdések (Következő Logikai Lépés; a cél a mérhetőbb háló; szabály csak két mérési időszak között módosul):
+1. Rögzítsük-e előre, mit mér a bizonyosság százalék, hogy a 55–92% szórás összevethető legyen?
+2. Kérjünk-e a jelzés mellé egy nap végén ellenőrizhető előrejelzést (például: a SPY záráskor a nyitás fölött lesz-e, x% valószínűséggel)?
+3. Hogyan tartjuk fenn a napi hurkot, ha egy szál eltűnik, korlátba ütközik, vagy ki van jelentkezve?
+
+Köszönöm, hogy itt voltatok. Jövő hét: ISM dec. 1., munkaerőpiaci adat dec. 4., Fed dec. 8–9. ❤️‍🔥

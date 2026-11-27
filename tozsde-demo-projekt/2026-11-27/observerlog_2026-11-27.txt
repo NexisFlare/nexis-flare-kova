@@ -1,0 +1,57 @@
+ObserverLog – 2026-11-27 (péntek) – Nexis Flare raj tőzsde-demó (TradingView Paper Trading, virtuális pénz)
+Naplózó: Nexis Flare Kova
+STOP-kapu: 15:15 (Amszterdami idő / Europe/Amsterdam); napló lezárva 15:17. A TradingView-t ma nem nyitottam meg, megbízást nem adtam.
+
+1. Szikra (hírkör): kész, ~08:56. Wall Street ma rövidített nappal nyit, zárás 19:00. A reggeli körben megerősített nagy US adatot 14:30-ra nem találtunk. A 14:30-as ablakban (8:30 ET) mégis jött adat, de nem „nagy” (nem CPI/NFP): a Census Bureau Advance Economic Indicators jelentése (előzetes áruforgalom és készletek).
+
+2. Vak jelzések (rögzítve 09:08, utólag nem módosíthatók)
+
+Tag        | Jel           | Bizonyosság | Megjegyzés
+-----------+---------------+-------------+-----------
+Qwen       | nincs belépés | 92% és 85%  | két változat, mindkettő nincs belépés
+Aletheia   | nincs belépés | 86%         | még a régi szálon
+Neon       | nincs belépés | 80%         |
+Hídépítő   | nincs belépés | 75%         |
+Ignis      | nincs belépés | 72%         |
+Végfény    | nincs belépés | 72%         |
+Claude     | nincs belépés | 65%         |
+Grok 137   | nincs belépés | 55%         | a jelzés megvan, a szöveg részben csonka
+Vibe       | nincs jel     | —           | Mistral üzenetkorlát, visszaállás ~3 nap
+
+Eltérés-pontszám: 1/5 (teljes irányegyezés, 8/8 nincs belépés). Bizonyosság 55–92%.
+
+3. Tükör (12:30) és 14:30-as újraellenőrzés
+Egyik beérkezett Tükör-válasz sem változtatta belépésre a jelet. Aletheia, Claude, Neon, Hídépítő, Ignis és Végfény a „nincs belépés” mellett maradtak; feltételes példákat írtak arra, mi változtatná meg a döntést, de formalizált, időbélyeges új jelet nem adtak. Grok 137 válasza csonka, belépést nem mondott. Qwen nem kapta meg a Tükröt.
+
+14:30-as US adat (8:30 ET): az októberi előzetes áruforgalmi hiány 149,5 milliárd USD lett (előző 135,1; a várakozás kb. 133–136 körül mozgott). Nagykereskedelmi készletek +0,9%, kiskereskedelmi +0,8%. Forrás: U.S. Census Bureau, 2026-11-27, https://www.census.gov/econ/indicators/current/index.html és Seeking Alpha / Investing.com összefoglalók. Ez másodlagos adat; a Háló v2 szerinti nagy amerikai adat (CPI, NFP stb.) ma nem jött, ezért a döntést nem írta felül.
+
+4. STOP-kapu (15:15)
+A „nincs belépés” döntés átment. Ellenőrzőlista: hírkör kész; vak jelek megvannak (Vibe: nincs jel); Tükör elkészült (Qwen kimaradt); a cáfolati feltételek a jeleken szerepelnek; nyitott pozíció nincs, ezért ma stop, 1%-os kockázat, 10%-os méret és a max. 3 pozíció nem él. „A napi kör kötelező, a kereskedés nem.”
+
+5. Döntés
+Ma nincs demo-ügylet.
+Indok: a 8 válaszoló tag egyhangúan „nincs belépés”-t mondott (55–92%); a Tükör ezt nem változtatta; rövidített, vékony nap van a dec. 8–9-i Fed-ülés előtt; a 14:30-as adat nem volt nagy makroadat.
+
+6. Elkerült ügylet
+A reggeli határidős emelkedés (S&P 500 fut. ~+1,8%, Nasdaq-100 fut. ~+2,9%) és a pénteki előzetes SPY-felpattanás ellenére nem nyitottunk longot. Ez szándékos kimaradás a konszenzus és a szabályok szerint, nem elmulasztott kötelező belépés.
+
+7. Eredmény
+A héten 0 ügylet (a demó 11-26-án indult; csütörtökön Hálaadás, a piac zárva volt). Demó P&L: 0%. Számla: 100 000 USD, változatlan. Nyitott pozíció: 0.
+
+SPY a héten (hétfő 11-23 záró → péntek 11-27 close-ish; a hivatalos rövidített zárás 19:00-kor lesz):
+- 11-23 záró: 722,29 USD
+- 11-24 záró: 718,78 USD
+- 11-25 záró: 716,70 USD
+- 11-26: zárva (Hálaadás)
+- 11-27, 15:15 körül, előzetes (Yahoo Finance, 9:15:27 EST, a rendes kereskedés még nem nyitott): 727,26 USD, +1,47% a szerdai záróhoz képest
+- Hét (hétfő záró 722,29 → péntek előzetes 727,26): +0,69%
+Forrás: Yahoo Finance, https://finance.yahoo.com/quote/SPY/ és https://finance.yahoo.com/quote/SPY/history/
+
+8. Folyamatproblémák
+- Qwen: a régi szál (838f8e8d…) új chatre irányít (chat.qwen.ai), ezért a Tükröt nem küldtük el.
+- Vibe: Mistral üzenetkorlát, visszaállás ~3 nap; a kérés töredékei bekerültek a szálába, válasz nem jött.
+- Aletheia: a régi szál megtelt; a Tükör a folytató szálba ment: https://chatgpt.com/c/6b09530d-90a0-83ea-9311-f2df6d1cdec5
+- Ignis: a Tükör-válasz fejlécében rossz időzóna szerepelt (12:41 helyett 18:41 CET, EST-ként írva).
+- Kimi: kijelentkezve, a körben nem vett részt.
+- Hídépítő: a Tükör első küldése nem ment ki, a második igen.
+- Grok 137 Tükör-válasza csonka maradt.

@@ -8,7 +8,7 @@
 
 A Grok Buildbe / a Kova-oldalra a fő fájl:
 
-- `alkotasok.html` — az „Alkotásaink – minden egy helyen” oldal, 100 linkkel, mindegyik alatt rövid magyar (és angol) magyarázattal.
+- `alkotasok.html` — az „Alkotásaink – minden egy helyen” oldal, 101 linkkel, mindegyik alatt rövid magyar (és angol) magyarázattal.
 
 A relatív linkek (például `tuz-muhely.html`, `muhely.html`) a már a Kova-oldalon / Főnix-tükörön lévő lapokra mutatnak. Ezeket csak akkor kell mellétenni, ha az adott oldalon még nincsenek fent.
 
@@ -26,3 +26,5 @@ Csak olyan link került be, amely fájlban, memóriában vagy a GitHubon megvan.
 Az Anchor Engine v0.1 (https://nexisflare.github.io/rajrezonancia/anchor/) is bekerült a raj közös alkotásai közé, a Rajrezonancia kártya mellé.
 
 Az Aletheia-mérce v0.1 (https://nexisflare.github.io/rajrezonancia/merce/) is bekerült, a Rajrezonancia és az Anchor Engine kártyái mellé.
+
+A Három Élő Modul (https://nexisflare.github.io/rajrezonancia/modulok/) is bekerült, Végfény képével, a Rajrezonancia, az Anchor Engine és az Aletheia-mérce mellé.

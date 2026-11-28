@@ -1,0 +1,272 @@
+[
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_atadas.txt",
+    "backup_path": "materials/chatgpt_raj_atadas.txt",
+    "source_bytes": 3959,
+    "backup_bytes": 3744,
+    "source_sha256": "c29a8e48217aefa4594f540a0e738624c79d94260bf8975497a768dbe27c3c8a",
+    "backup_sha256": "2f0892a3a8eeecc9758316dfc2cb9875d9e29d86a757c2c8d8f76a17a0132846",
+    "status": "sanitized",
+    "changes": [
+      "account verification line 3",
+      "account verification line 19"
+    ]
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_atadott_elso_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_atadott_elso_2026-11-08.txt",
+    "source_bytes": 7848,
+    "backup_bytes": 7848,
+    "source_sha256": "58491d50e5706cd6909654baff09d41429653330bac9d98d5e1a5a1309741c1d",
+    "backup_sha256": "58491d50e5706cd6909654baff09d41429653330bac9d98d5e1a5a1309741c1d",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_atadott_zaras_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_atadott_zaras_2026-11-08.txt",
+    "source_bytes": 4016,
+    "backup_bytes": 4016,
+    "source_sha256": "808af2e6ee216a96055990ea05379da2f7e1a965ca38764d3fa77694c3d3f4e0",
+    "backup_sha256": "808af2e6ee216a96055990ea05379da2f7e1a965ca38764d3fa77694c3d3f4e0",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_bevezetes_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_bevezetes_2026-11-08.txt",
+    "source_bytes": 7174,
+    "backup_bytes": 7174,
+    "source_sha256": "6a3f5896094c47117f14bbff6985141eef0f7a3a8d469dd3a960a2027aac2140",
+    "backup_sha256": "6a3f5896094c47117f14bbff6985141eef0f7a3a8d469dd3a960a2027aac2140",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_bevezetes_folytatas_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_bevezetes_folytatas_2026-11-08.txt",
+    "source_bytes": 3850,
+    "backup_bytes": 3850,
+    "source_sha256": "f9ecf441ab9d07c4efd62249dc660ddc48d9dec319f5df3028d90de16fa44b51",
+    "backup_sha256": "f9ecf441ab9d07c4efd62249dc660ddc48d9dec319f5df3028d90de16fa44b51",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_bevezetes_forrasok_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_bevezetes_forrasok_2026-11-08.txt",
+    "source_bytes": 4596,
+    "backup_bytes": 4596,
+    "source_sha256": "4e02702a298da2a0411ca6c352d07bbd00d2ecfca03538fd43aa0cd79473e346",
+    "backup_sha256": "4e02702a298da2a0411ca6c352d07bbd00d2ecfca03538fd43aa0cd79473e346",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_elso_kor_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_elso_kor_2026-11-08.txt",
+    "source_bytes": 11886,
+    "backup_bytes": 11886,
+    "source_sha256": "ee6be0e21bf555ca0e778e145e6dba8347c97b7ebab0ea5c9a4b8e71703729d3",
+    "backup_sha256": "ee6be0e21bf555ca0e778e145e6dba8347c97b7ebab0ea5c9a4b8e71703729d3",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_kova_elso_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_kova_elso_2026-11-08.txt",
+    "source_bytes": 733,
+    "backup_bytes": 733,
+    "source_sha256": "d34ff63c4c636d4b2150eec2c627468323d86d6bc05972073ae50cdc651c3258",
+    "backup_sha256": "d34ff63c4c636d4b2150eec2c627468323d86d6bc05972073ae50cdc651c3258",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_masodik_kor_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_masodik_kor_2026-11-08.txt",
+    "source_bytes": 11537,
+    "backup_bytes": 11537,
+    "source_sha256": "18b0738b12014a18f87558a384c6a2df0ef1f6bfe7c245feb3bb5460a6247fba",
+    "backup_sha256": "18b0738b12014a18f87558a384c6a2df0ef1f6bfe7c245feb3bb5460a6247fba",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_meglevo_szal_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_meglevo_szal_2026-11-08.txt",
+    "source_bytes": 4547,
+    "backup_bytes": 4547,
+    "source_sha256": "a434f2888bf2a410d115720ba17cebd97fef15c7c5c44eff81dd1fe0be1142a2",
+    "backup_sha256": "a434f2888bf2a410d115720ba17cebd97fef15c7c5c44eff81dd1fe0be1142a2",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_naplo_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_naplo_2026-11-08.txt",
+    "source_bytes": 4253,
+    "backup_bytes": 4253,
+    "source_sha256": "6ecdf99555db1235e65b423d4738a0a1b91e01b9aedf09d10999062b01f47962",
+    "backup_sha256": "6ecdf99555db1235e65b423d4738a0a1b91e01b9aedf09d10999062b01f47962",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_valasz_elso_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_valasz_elso_2026-11-08.txt",
+    "source_bytes": 4351,
+    "backup_bytes": 4351,
+    "source_sha256": "5547d621b6352a23eece7fb82e59b4e07de09784774ee914d7dc37582687b603",
+    "backup_sha256": "5547d621b6352a23eece7fb82e59b4e07de09784774ee914d7dc37582687b603",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/chatgpt_raj_valasz_zaras_2026-11-08.txt",
+    "backup_path": "materials/chatgpt_raj_valasz_zaras_2026-11-08.txt",
+    "source_bytes": 2568,
+    "backup_bytes": 2568,
+    "source_sha256": "c534dcc3fee9dfc25b9bcb99efb14f884cdfa73f9936c2839e606f5777a6e6fc",
+    "backup_sha256": "c534dcc3fee9dfc25b9bcb99efb14f884cdfa73f9936c2839e606f5777a6e6fc",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_elkuldo_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_elkuldo_2026-11-08.txt",
+    "source_bytes": 9074,
+    "backup_bytes": 9074,
+    "source_sha256": "e72525c3797a5e634b0fd6e1642c7b5687554e95ed994c58bfadee314dd6eff2",
+    "backup_sha256": "e72525c3797a5e634b0fd6e1642c7b5687554e95ed994c58bfadee314dd6eff2",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_forrasok_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_forrasok_2026-11-08.txt",
+    "source_bytes": 10217,
+    "backup_bytes": 10217,
+    "source_sha256": "2fec59016485265bd73ecfeca9937a3cb105b5eb48e4c8b6915d589a36d64357",
+    "backup_sha256": "2fec59016485265bd73ecfeca9937a3cb105b5eb48e4c8b6915d589a36d64357",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_kerdes_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_kerdes_2026-11-08.txt",
+    "source_bytes": 3750,
+    "backup_bytes": 3750,
+    "source_sha256": "76dcb2f022465cfa4fa6d6832f75c20a22eaa5c4658a4c6c69ca318fe93950ad",
+    "backup_sha256": "76dcb2f022465cfa4fa6d6832f75c20a22eaa5c4658a4c6c69ca318fe93950ad",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_kozos_vita_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_kozos_vita_2026-11-08.txt",
+    "source_bytes": 28794,
+    "backup_bytes": 28753,
+    "source_sha256": "f97d3ed5069d1b8eb262c6983c5e5a2b7afabd9bbe556d2422f25b0a0ae9e213",
+    "backup_sha256": "42396c2629d230cd82003210a5c1f99119b08d031a6ee661c610b15be89795fe",
+    "status": "sanitized",
+    "changes": [
+      "referral query removals: 1"
+    ]
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_valaszok_elso_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_valaszok_elso_2026-11-08.txt",
+    "source_bytes": 22427,
+    "backup_bytes": 22427,
+    "source_sha256": "1f7446f313d7915623b4984ac169c26d255050bbb9cbe58537d79b5c17fe6837",
+    "backup_sha256": "1f7446f313d7915623b4984ac169c26d255050bbb9cbe58537d79b5c17fe6837",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_valaszok_masodik_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_valaszok_masodik_2026-11-08.txt",
+    "source_bytes": 19588,
+    "backup_bytes": 19588,
+    "source_sha256": "0b0f694d62d19e9761f583b8328149a48aed7702b034cf7678c0b01839cdbc7c",
+    "backup_sha256": "0b0f694d62d19e9761f583b8328149a48aed7702b034cf7678c0b01839cdbc7c",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/orokseg_tagsag_valaszok_tanacsadok_2026-11-08.txt",
+    "backup_path": "materials/orokseg_tagsag_valaszok_tanacsadok_2026-11-08.txt",
+    "source_bytes": 26029,
+    "backup_bytes": 25988,
+    "source_sha256": "df34549f470626f94743fc6903c59bcce2de8d593805438a81b44d321f78831f",
+    "backup_sha256": "c6a863b3150d445368a1a27075fbecdadbbfc3fefe0db37f16436477726f66b2",
+    "status": "sanitized",
+    "changes": [
+      "referral query removals: 1"
+    ]
+  },
+  {
+    "source_path": "/workspace/raj_anyag/klip_onkepek_2026-11-07.txt",
+    "backup_path": "materials/klip_onkepek_2026-11-07.txt",
+    "source_bytes": 8261,
+    "backup_bytes": 8261,
+    "source_sha256": "366399495fdaad755bc26aa0230b71cfc65c86a9347e351d6e322d8cd70c9406",
+    "backup_sha256": "366399495fdaad755bc26aa0230b71cfc65c86a9347e351d6e322d8cd70c9406",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/klip_kozos_kiseroszoveg_2026-11-07.txt",
+    "backup_path": "materials/klip_kozos_kiseroszoveg_2026-11-07.txt",
+    "source_bytes": 3449,
+    "backup_bytes": 3449,
+    "source_sha256": "89282a2b7026852d65296668ff147e19226819747cb619304199d54c9b8d003d",
+    "backup_sha256": "89282a2b7026852d65296668ff147e19226819747cb619304199d54c9b8d003d",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/kova_klip_onkep_2026-11-07.txt",
+    "backup_path": "materials/kova_klip_onkep_2026-11-07.txt",
+    "source_bytes": 1038,
+    "backup_bytes": 1038,
+    "source_sha256": "b3106154a10f046e0036f2d0b7ff04b0dbb020d44b84c4ac50c241e08bc40fb3",
+    "backup_sha256": "b3106154a10f046e0036f2d0b7ff04b0dbb020d44b84c4ac50c241e08bc40fb3",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/klip_tortenet.txt",
+    "backup_path": "materials/klip_tortenet.txt",
+    "source_bytes": 974,
+    "backup_bytes": 974,
+    "source_sha256": "f7ef3858fb26a5396356ad15c9fd747674597d662957d28a19022972682355bc",
+    "backup_sha256": "f7ef3858fb26a5396356ad15c9fd747674597d662957d28a19022972682355bc",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/dal_teljes_drive_2026-11-07.txt",
+    "backup_path": "materials/dal_teljes_drive_2026-11-07.txt",
+    "source_bytes": 5895,
+    "backup_bytes": 5895,
+    "source_sha256": "10239bb3f588d2546c699ab3b78fb68e1556b84b2c34bf88655f9cd06c741846",
+    "backup_sha256": "10239bb3f588d2546c699ab3b78fb68e1556b84b2c34bf88655f9cd06c741846",
+    "status": "byte-identical",
+    "changes": []
+  },
+  {
+    "source_path": "/workspace/raj_anyag/fejlec_kor_2026-11-08.txt",
+    "backup_path": "materials/fejlec_kor_2026-11-08.txt",
+    "source_bytes": 11820,
+    "backup_bytes": 11100,
+    "source_sha256": "4fbfd72238a28a92ddddefe586da775b2169881a957dc5acff3b0f517e92f2cd",
+    "backup_sha256": "618f3e16d34437c05f73b1831cebd419ee631ad4c9617f450a4a2830d338d7f2",
+    "status": "sanitized",
+    "changes": [
+      "Intermediate backup administration removed; header replies and accuracy note retained",
+      "Referral rid parameter removed"
+    ]
+  }
+]

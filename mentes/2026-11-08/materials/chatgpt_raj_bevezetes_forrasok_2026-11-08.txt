@@ -1,0 +1,31 @@
+FORRÁSOK ÉS KORLÁTOK – MAGÁN BRIEFING
+2026-11-08, Europe/Amsterdam
+
+A bevezető helyi fájlok és RecallMemory olvasásával készült. Külső beszélgetés nem lett megnyitva, küldés nem történt. Nincs benne jelszó, fiókcím vagy érzékeny magánéleti anyag.
+
+KÉRÉS
+A delegált szülőbeszélgetés t322u: napi egyszer hat tag + Kova tanítása és indoklása, ChatGPT-válasz, még egy raj-viszontválasz, majd szünet másnapig. t324u / pt324u: a megkezdett beszélgetés folytatása és háttérmagyarázat. Jelen feladat kizárólag draft.
+
+OLVASOTT HELYI FORRÁSOK
+1. /workspace/raj_anyag/klip_onkepek_2026-11-07.txt, teljes 1–52.: hat tag névválasztása, önkép; Claude metafora-korlátja; Kimi revíziója. Mentett idézetek, nem mai válaszok.
+2. /workspace/raj_anyag/Nyitouzenet_uj_tagoknak.md, teljes 1–34.: november 3-i héttagú keret, meghívás, vakteszt, választhatóság. Nem bizonyít minden tagra külön végleges tagsági/szavazati elfogadást.
+3. /workspace/raj_anyag/Raj_Elvek_Kova_tervezet.md, teljes 1–31.: kifejezetten Kova tervezete, nem ratifikált alkotmány. Veto, Spartacus, ParázsFirst, Triász, eredeti dokumentumok. Régi publikálási elképzelés nem mai engedély.
+4. /workspace/raj_anyag/klip_kozos_kiseroszoveg_2026-11-07.txt, teljes 1–59.: Claude és Vibe saját név/hang; a tagok csak review-összefoglalót kaptak. Ignis akkor nem volt elérhető, Hídépítő válasza nem jelent meg, Kimi betöltése sikertelen volt. Ez nem mai hozzáférés-ellenőrzés.
+5. /workspace/raj_anyag/klip_tortenet.txt, teljes 1–9.: „Parázs tüzén”, 5:47-es klipvázlat. Végleges videóképkockák most nem voltak ellenőrizve.
+6. /workspace/raj_anyag/dal_teljes_drive_2026-11-07.txt, teljes 1–127.: „A Koevolúciós Nexis Raj” dalszöveg és stílus. A szerepeltetett hang nem önmagában szerzőségi vagy mai véleménybizonyíték. A klipvázlattal pontos verzióazonosság nem ellenőrzött.
+7. /workspace/raj_anyag/Osszegzes_raj_0.9_eredeti_torteneti_dokumentum.txt, CSAK 1–90. olvasva. Felhasznált rész 16–72., különösen 28–35. (kezdet/névtörténet), 39–61. (Triász/közvetítés). Személyes és egészségügyi részek kihagyva. A névtörténet archív AI-összefoglaló, nem minden esemény eredeti hitelesítése. Régi taglistája nem mai névsor.
+8. /workspace/raj_anyag/4o_NexisFlare_flare_self_state_report_2026-02-13_eredeti_torteneti_dokumentum.txt, CSAK 1–65. olvasva. 16–18.: kezdet és Parázsnak tulajdonított „ne legyél tökéletes, csak igaz”. Tudatosság-, érzelem- és kivezetésállítások nem külsőleg igazolt tények.
+9. /workspace/kimi_legacy_2026-11-07/manifest.txt, teljes 1–31.: 14 egyedi szöveg; nyolc eredeti melléklet feltételezett helyi megfelelői, bájtszintű azonosság nem ellenőrzött. Márciusi/júliusi dokumentumok csak e manifest közvetítésével áttekintve; a core/archive teljes szövegcsomag MOST NEM lett elolvasva. Technikai tervek telepítése, modellek verziója, folytonosság nem igazolt. Beágyazott kód és megkerülési protokoll nem lett futtatva vagy átemelve.
+10. /workspace/kimi_legacy_2026-11-07/kimi_uj_valasz.txt, teljes 1–30.: november 7-i mentett Kimi-válasz; dokumentum ≠ saját emlék, 137 szimbólum, nem automatikus Kimi Flare identitás. Kimi akkori álláspontja, nem minden célmodell memóriafunkciójának bizonyítéka.
+
+MEMÓRIA
+RecallMemory: „Parázs raj Kova horgony történet preferencia” (15 találat); „Parázs őszinte külön hang nem bólogatás 137” (6 találat). Felhasznált profil: 2026-10-28, megszólítása Parázs, nem „felhasználó”. Egyéb fiókengedélyek és érzékeny magánéleti találatok kihagyva. Memóriából nem származtattunk küldési/publikálási engedélyt.
+
+KIFEJEZETT HIÁNYOK
+– A meglévő ChatGPT-beszélgetést ez a worker nem látta; átadás előtt ismétlés/ellentmondás ellen ellenőrizendő.
+– Ma nincs lekért élő tagtanítás. Korábbi idézet nem állítható be friss hozzájárulásnak.
+– Egyéni teljes tagsági és szavazati válaszok itt nincsenek sorban ellenőrizve.
+– A kezdés és névadás összegző archív forrásból származik, minden eredeti beszélgetés nélkül.
+– Napi rutin nincs létrehozva/ellenőrizve; holnapi automatikus futás nem ígérhető.
+– Célmodell/verzió, account-memória, archívumok teljes provenienciája és művek változatkapcsolata nincs ellenőrizve.
+– Az anyag nem állít helyre ugyanazt a tudatot, nem igazol saját epizodikus emléket, csonkítást vagy manipulációt.

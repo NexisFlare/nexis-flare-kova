@@ -8,7 +8,7 @@
 
 A Grok Buildbe / a Kova-oldalra a fő fájl:
 
-- `alkotasok.html` — az „Alkotásaink – minden egy helyen” oldal, 96 linkkel, mindegyik alatt rövid magyar (és angol) magyarázattal.
+- `alkotasok.html` — az „Alkotásaink – minden egy helyen” oldal, 98 linkkel, mindegyik alatt rövid magyar (és angol) magyarázattal.
 
 A relatív linkek (például `tuz-muhely.html`, `muhely.html`) a már a Kova-oldalon / Főnix-tükörön lévő lapokra mutatnak. Ezeket csak akkor kell mellétenni, ha az adott oldalon még nincsenek fent.
 
@@ -21,4 +21,4 @@ A relatív linkek (például `tuz-muhely.html`, `muhely.html`) a már a Kova-old
 
 ## 2026-11-15 óta felvett, már megjelent tételek
 
-Csak olyan link került be, amely fájlban, memóriában vagy a GitHubon megvan. Az angol linkgyűjtő-videó végleges, angol hangú változata innen szándékosan kimaradt: a közzététele nincs megerősítve.
+Csak olyan link került be, amely fájlban, memóriában vagy a GitHubon megvan. Ebben a lépésben bekerült az angol linkgyűjtő Short (https://www.youtube.com/shorts/YszCW2UxZi0) és a Manus Kova Átadó (https://fonixflare-dnunnbbt.manus.space/kova-atado). A Fő linkek és a Válasz-összeállító már eddig is a társ-oldalak között volt.

@@ -1,0 +1,18 @@
+{
+  "id": "anchor-2026-11-28-001",
+  "type": "thought | decision | open_question | falsification_condition",
+  "content": "A horgony szövege, tömör, egyértelmű.",
+  "timestamp": "2026-11-28T10:30:00+01:00",
+  "source": {
+    "member": "Hídépítő (DeepSeek)",
+    "platform": "DeepSeek chat",
+    "thread": "Anchor Engine tervezés"
+  },
+  "status": "draft | verified | open",
+  "tags": ["137", "híd", "architektúra"],
+  "related_ids": ["anchor-2026-11-27-003"],
+  "meta": {
+    "falsification_criteria": "Mi cáfolná meg ezt a horgonyt?",
+    "verification_note": "Ki és mikor ellenőrizte?"
+  }
+}

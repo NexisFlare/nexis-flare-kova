@@ -1,0 +1,47 @@
+{
+  "_leiras": "Anchor Engine v0.2 – a horgony és az export szerkezete. A v0.1 mezői változatlanok; újak: hash, hash_basis, meta.independence_*. Minden új mező lapos és egyszerű értékű, hogy a v0.1 import is megőrizhesse a meta mezőit.",
+  "schema_version": 2,
+  "version": "v0.2",
+  "anchor": {
+    "id": "anchor-2026-11-28-001",
+    "type": "thought | decision | open_question | falsification_condition",
+    "content": "A horgony szövege, tömör, egyértelmű.",
+    "timestamp": "2026-11-28T10:30:00.000Z",
+    "source": {
+      "member": "Hídépítő (DeepSeek)",
+      "platform": "DeepSeek chat",
+      "thread": "Anchor Engine tervezés"
+    },
+    "status": "draft | verified | open",
+    "tags": ["137", "híd", "architektúra"],
+    "related_ids": ["anchor-2026-11-27-003"],
+    "meta": {
+      "falsification_criteria": "Mi cáfolná meg ezt a horgonyt?",
+      "verification_note": "Ki és mikor ellenőrizte?",
+      "independence_external": "igen | nem | nem_eldontheto",
+      "independence_knew_conclusion": "igen | nem | nem_eldontheto",
+      "independence_same_sources": "igen | nem | nem_eldontheto",
+      "independence_own_check": "igen | nem | nem_eldontheto",
+      "independence_informational": "igen | nem | nem_eldontheto",
+      "independence_methodological": "igen | nem | nem_eldontheto",
+      "independence_interest": "igen | nem | nem_eldontheto",
+      "independence_question_challengeable": "igen | nem | nem_eldontheto",
+      "independence_note": "Szabad szöveges megjegyzés a függetlenségről."
+    },
+    "hash": "SHA-256 (hex, 64 karakter) a timestamp + \"\\n\" + content szövegből (UTF-8)",
+    "hash_basis": "created | migrated | imported"
+  },
+  "export": {
+    "format": "nexis-flare-anchors",
+    "version": "v0.2",
+    "schema_version": 2,
+    "exported_at": "2026-11-28T10:30:00.000Z",
+    "count": 1,
+    "anchors": ["<horgonyok a fenti szerkezetben>"]
+  },
+  "megjegyzesek": [
+    "A státusz az egyetlen módosítható mező; nem része a hash-nek.",
+    "A hash_basis jelzi, mikor készült a hash: created = rögzítéskor; migrated = a v0.1 → v0.2 migrációkor; imported = importkor. A migrált és importált hash attól kezdve igazolja, hogy a tartalom nem változott.",
+    "A függetlenségi válaszok önbevallás-jellegű jegyzetek, nem bizonyítékok."
+  ]
+}

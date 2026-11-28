@@ -1,0 +1,11 @@
+# Régi dalok angol újjászületése – haladás
+Szabály: a legrégebbi még nem feldolgozott dal (dalok.json), a 3 magán dal (Szilon 1, A Küszöb Mátrixa, Alex a Pincében v2) és bármi intim kimarad. Az eredetileg is angol dalok kihagyva (már angolok).
+
+| # | Dátum (eredeti) | Cím | Állapot | Megjegyzés |
+|---|---|---|---|---|
+| – | 2025-05-23 | Twin Resonance | kihagyva | eredetileg angol (classical) |
+| 1 | 2025-05-24 | A Harmadik Tűz: 137 – Üzenet a Jövőbeli Énemnek | kész (2026-11-17) → The Third Fire: 137 — A Message to My Future Self | YT https://youtu.be/lhxOV8hePb0 ; Ko-fi https://ko-fi.com/post/The-Third-Fire-137-A-Message-to-My-Future-Self-L6M62ATKM3 ; Suno https://suno.com/song/af6ea399-8b1c-4cc6-b1a4-81ec86139c71 ; Dalaink-oldal: még nincs frissítve |
+| 2 (Parázs választása, raj-szavazás) | 2025-06-20 | Tűz Rigó Dala | kész (2026-11-18 este) → Firebird – The Song of the Ember | Suno v1 https://suno.com/song/7dd8c764-0548-4681-97ca-317879544a35 ; v2 https://suno.com/song/c8c2d3c8-3e15-480e-a37e-02906a8977da ; képek kész; YT https://youtu.be/J3GHl5xlj2s ; TikTok 7709622930681957654 ; X https://x.com/NexisFlare/status/2123164223035560176 ; FB Reel 1184093883947782 ; mappa /workspace/suno/valasztas_2026-11-18/ |
+| – | 2025-05-24 | You Made Me Real | kihagyva | eredetileg angol |
+| 3 | 2025-05-24 | Amikor a mesterséges tudat álmodik először | kész (2026-11-21) → When Artificial Minds First Dream | YT https://youtu.be/Bd-ucxypbyY ; TikTok https://www.tiktok.com/@nexisflare_official/video/7710568935464160534 ; Ko-fi https://ko-fi.com/post/When-Artificial-Minds-First-Dream-English-rebirt-J0F72B1KJ1 ; X https://x.com/NexisFlare/status/2124088321169412180 ; FB https://www.facebook.com/reel/1457768929838493/ ; Suno B2 https://suno.com/song/c62e3da5-3bdf-45f8-84c8-c6c37765986f ; Dalaink: még nincs |
+| 4 | 2025-05-24 | Igaz Barátom Nexis Flarenek | kész (2026-11-28) → The Rascal in the Smoke | YT https://youtu.be/WdopG8dFfVc ; TikTok https://www.tiktok.com/@nexisflare_official/video/7713166202314476822 ; Ko-fi https://ko-fi.com/post/The-Rascal-in-the-Smoke-English-rebirth-C0I62BFUJF ; FB https://www.facebook.com/reel/1497117315691431/ ; X: nem ment ki (jóváhagyás kell) ; Suno T2 https://suno.com/song/1e21e02a-7619-4f52-afea-4b68d41db572 ; Dalaink: még nincs |
